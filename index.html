@@ -1,1225 +1,1317 @@
 <!DOCTYPE html>
-<html lang="en">
-
+<html lang="en" data-theme="dark">
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Seifeddine ABIDI - Full-Stack & DevOps Engineer</title>
+  
+  <title>Seifeddine ABIDI | Software Engineer • Full-Stack & DevOps/Cloud</title>
+  <meta name="description" content="Portfolio of Seifeddine ABIDI - Software Engineer specialized in Java/Spring Boot, Angular, Camunda BPM, Docker, Kubernetes, and GitOps ArgoCD. Production-ready enterprise systems.">
+  <meta name="keywords" content="Seifeddine ABIDI, Software Engineer, Full-Stack, DevOps, Cloud Engineer, Spring Boot, Angular, Camunda, Kubernetes, ArgoCD, Docker, Jenkins, TIA, SIGMAP">
+  <meta name="author" content="Seifeddine ABIDI">
 
-  <!--
-    - favicon
-  -->
+  <!-- Open Graph / Meta -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Seifeddine ABIDI - Full-Stack & DevOps Software Engineer">
+  <meta property="og:description" content="Building resilient distributed systems, enterprise platforms, and automated cloud infrastructure.">
+  <meta property="og:image" content="./assets/images/5a502eed-43f5-4203-bd0e-49dd9a714610.jpg">
+
+  <!-- Favicon -->
   <link rel="shortcut icon" href="./assets/images/5a502eed-43f5-4203-bd0e-49dd9a714610.jpg" type="image/x-icon">
-  <link rel="stylesheet" href="https://public.codepenassets.com/css/reset-2.0.min.css">
-  <!--
-    - custom css link
-  -->
-  <link rel="stylesheet" href="./assets/css/style.css">
-  <!--
-    - google font link
-  -->
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
-</head>
 
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+</head>
 <body>
 
-
-  <main>
-
-    <!--
-      - #SIDEBAR
-    -->
-
-    <aside class="sidebar" data-sidebar>
-
-      <div class="sidebar-info">
-
-        <figure class="avatar-box">
-          <img style="border-radius: 14px; box-shadow: var(--shadow-2);"
-            src="./assets/images/5a502eed-43f5-4203-bd0e-49dd9a714610.jpg" alt="Seifeddine ABIDI" width="80">
-        </figure>
-
-        <div class="info-content">
-          <h1 class="name" title="Seifeddine ABIDI">Seifeddine<br> ABIDI</h1>
-
-          <p class="title">Ingénieur Full-Stack & DevOps/Cloud</p>
+  <!-- ==================== HEADER & WELL-ALIGNED NAVIGATION ==================== -->
+  <header class="site-header">
+    <div class="nav-container">
+      
+      <!-- Brand Logo & Identity -->
+      <a href="#hero" class="nav-brand" aria-label="Seifeddine ABIDI Home">
+        <div class="brand-logo">&lt;SA/&gt;</div>
+        <div class="brand-text">
+          <span class="brand-name">Seifeddine ABIDI</span>
+          <span class="brand-role" data-i18n="nav_brand_role">Software Engineer • DevOps</span>
         </div>
+      </a>
 
-        <button class="info_more-btn" data-sidebar-btn>
-          <span>Show Contacts</span>
-
-          <ion-icon name="chevron-down"></ion-icon>
-        </button>
-
-      </div>
-
-      <div class="sidebar-info_more">
-
-        <div class="separator"></div>
-
-        <ul class="contacts-list">
-
-          <li class="contact-item">
-
-            <div class="icon-box">
-              <ion-icon name="mail-outline"></ion-icon>
-            </div>
-
-            <div class="contact-info">
-              <p class="contact-title">Email</p>
-
-              <a href="mailto:seifeddine.abidi@esprit.tn" class="contact-link">seifeddine.abidi@esprit.tn</a>
-            </div>
-
-          </li>
-
-          <li class="contact-item">
-
-            <div class="icon-box">
-              <ion-icon name="phone-portrait-outline"></ion-icon>
-            </div>
-
-            <div class="contact-info">
-              <p class="contact-title">Phone</p>
-
-              <a href="tel:+21656549887" class="contact-link">+216 56 549 887</a>
-            </div>
-
-          </li>
-
-          <li class="contact-item">
-
-            <div class="icon-box">
-              <ion-icon name="calendar-outline"></ion-icon>
-            </div>
-
-            <div class="contact-info">
-              <p class="contact-title">Birthday</p>
-
-              <time datetime="2000-06-19">June 19, 2000</time>
-            </div>
-
-          </li>
-
-          <li class="contact-item">
-
-            <div class="icon-box">
-              <ion-icon name="location-outline"></ion-icon>
-            </div>
-
-            <div class="contact-info">
-              <p class="contact-title">Location</p>
-
-              <address>Tunis , Tunisie</address>
-            </div>
-
-          </li>
-
-        </ul>
-
-        <div class="separator"></div>
-
-        <ul class="social-list">
-
-          <li class="social-item">
-            <a href="https://www.linkedin.com/in/seifeddineabidi/" class="social-link" target="_blank">
-              <ion-icon name="logo-linkedin"></ion-icon>
-            </a>
-          </li>
-
-          <li class="social-item">
-            <a href="https://github.com/seifeddineABIDI" class="social-link" target="_blank">
-              <ion-icon name="logo-github"></ion-icon>
-            </a>
-          </li>
-
-        </ul>
-
-      </div>
-
-    </aside>
-
-
-
-
-
-    <!--
-      - #main-content
-    -->
-
-    <div class="main-content">
-
-      <!--
-        - #NAVBAR
-      -->
-
-      <nav class="navbar">
-
-        <ul class="navbar-list">
-
-          <li class="navbar-item">
-            <button class="navbar-link  active" data-nav-link>About</button>
-          </li>
-
-          <li class="navbar-item">
-            <button class="navbar-link" data-nav-link>Resume</button>
-          </li>
-
-          <li class="navbar-item">
-            <button class="navbar-link" data-nav-link>Portfolio</button>
-          </li>
-
-          <li class="navbar-item">
-            <button class="navbar-link" data-nav-link>Contact</button>
-          </li>
-
-        </ul>
-
+      <!-- Navigation Links -->
+      <nav class="nav-menu" id="navMenu">
+        <a href="#about" class="nav-link" data-i18n="nav_about">About</a>
+        <a href="#architecture" class="nav-link" data-i18n="nav_skills">Skills &amp; Architecture</a>
+        <a href="#experience" class="nav-link" data-i18n="nav_experience">Experience</a>
+        <a href="#projects" class="nav-link" data-i18n="nav_projects">Projects</a>
+        <a href="#certifications" class="nav-link" data-i18n="nav_certs">Certifications</a>
+        <a href="#contact" class="nav-link" data-i18n="nav_contact">Contact</a>
       </nav>
 
+      <!-- Action Items & Toolbars (Strictly Aligned) -->
+      <div class="nav-actions">
+        
+        <!-- EN / FR Language Switcher -->
+        <div class="lang-switcher" id="langSwitcher" title="Switch Language / Changer de langue">
+          <button type="button" class="lang-btn active" data-lang="en">EN</button>
+          <span style="color:var(--border-medium); font-size:0.75rem;">/</span>
+          <button type="button" class="lang-btn" data-lang="fr">FR</button>
+        </div>
 
+        <!-- Terminal CLI Toggle -->
+        <button class="btn btn-terminal open-terminal-btn" title="Open Interactive Developer CLI" data-i18n="btn_cli">
+          <span>&gt;_ CLI</span>
+        </button>
 
+        <!-- Theme Toggle (Dark / Light) -->
+        <button class="icon-btn" id="themeToggleBtn" aria-label="Toggle Color Theme" title="Toggle theme">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="5"/><path d="M12 1v2M12 21v2M4.22 4.22l1.42 1.42M18.36 18.36l1.42 1.42M1 12h2M21 12h2M4.22 19.78l1.42-1.42M18.36 5.64l1.42-1.42"/></svg>
+        </button>
 
+        <!-- Download CV -->
+        <a href="./assets/cv.pdf" download="Seifeddine_ABIDI_CV.pdf" class="btn btn-primary" title="Download Official Resume PDF">
+          <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
+          <span data-i18n="btn_cv">CV</span>
+        </a>
 
-      <!--
-        - #ABOUT
-      -->
+        <!-- Mobile Nav Toggle -->
+        <button class="icon-btn mobile-toggle" id="mobileToggle" aria-label="Toggle navigation menu">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="18" x2="21" y2="18"/></svg>
+        </button>
+      </div>
 
-      <article class="about  active" data-page="about">
+    </div>
+  </header>
 
+  <main>
+    <!-- ==================== HERO SECTION WITH PROMINENT PROFILE IMAGE ==================== -->
+    <section class="hero" id="hero">
+      <div class="container hero-grid">
+        
+        <!-- Left: Headline, Profile Chip & Pitch -->
+        <div class="hero-content">
+          
+          <!-- Prominent Profile Avatar Chip -->
+          <div class="hero-profile-chip">
+            <img src="./assets/images/5a502eed-43f5-4203-bd0e-49dd9a714610.jpg" alt="Seifeddine ABIDI" class="chip-img">
+            <div class="chip-text">
+              <span class="chip-name">Seifeddine ABIDI</span>
+              <span class="chip-status">
+                <span class="status-dot"></span>
+                <span data-i18n="hero_chip_status">Online</span>
+              </span>
+            </div>
+          </div>
 
-        <header>
-          <h2 class="h2 article-title">About me</h2>
-        </header>
+          <h1 class="hero-title" data-i18n="hero_title">
+            Engineering Resilient <span class="text-gradient">Distributed Systems</span> &amp; Automated Cloud Infrastructure.
+          </h1>
 
-        <section class="about-text">
-          <p>
-            I am a Full-Stack and DevOps Engineer with a passion for building scalable, high-performance applications
-            and robust infrastructure. With expertise in modern frameworks like <b>Spring Boot</b> and <b>Angular</b>,
-            combined with a strong foundation in <b>Cloud and DevOps</b> practices (Docker, Kubernetes, ArgoCD,
-            Jenkins), I specialize in delivering reliable software solutions and automated deployment pipelines.
+          <p class="hero-desc" data-i18n="hero_desc">
+            Hi, I’m <strong>Seifeddine ABIDI</strong>. I build high-availability enterprise web solutions and automated delivery pipelines with <strong>Spring Boot</strong>, <strong>Angular</strong>, <strong>Camunda BPM</strong>, and <strong>Kubernetes GitOps</strong>. Currently operating production platforms including <strong>tunisiainvestment.tn (TIA)</strong> and <strong>SIGMAP</strong>.
           </p>
-          <p>
-            My experience spans full-stack development, workflow automation with <b>Camunda BPM</b>, and infrastructure
-            management. I am driven by the goal of transforming complex business requirements into high-quality
-            technical realities, ensuring performance, reliability, and security at every layer of the stack.
-          </p>
 
-
-          <a href="./assets/cv.pdf" download class="download-cv-btn-container">
-            <button class="download-cv-btn">
-              <ion-icon name="download-outline"></ion-icon>
-              <span>Download CV</span>
-            </button>
-          </a>
-        </section>
-
-
-        <!--
-          - service
-        -->
-
-        <section class="service">
-
-          <h3 class="h3 service-title">What I'm Doing</h3>
-
-          <ul class="service-list">
-
-            <li class="service-item">
-
-              <div class="service-icon-box">
-                <img src="./assets/images/icon-dev.svg" alt="Web development icon" width="40">
-              </div>
-
-              <div class="service-content-box">
-                <h4 class="h4 service-item-title">Web Development</h4>
-
-                <p class="service-item-text">
-                  High-quality development of websites at a professional level, creating responsive and efficient
-                  solutions.
-                </p>
-              </div>
-
-            </li>
-
-            <li class="service-item">
-
-              <div class="service-icon-box">
-                <img src="./assets/images/devops.png" alt="DevOps icon" width="40">
-              </div>
-
-              <div class="service-content-box">
-                <h4 class="h4 service-item-title">DevOps</h4>
-
-                <p class="service-item-text">
-                  Streamlining development pipelines with CI/CD, cloud infrastructure, and automation for scalable
-                  systems.
-                </p>
-              </div>
-
-            </li>
-
-            <li class="service-item">
-
-              <div class="service-icon-box">
-                <img src="./assets/images/ai.png" alt="AI icon" width="40">
-              </div>
-
-              <div class="service-content-box">
-                <h4 class="h4 service-item-title">AI Development</h4>
-
-                <p class="service-item-text">
-                  Exploring and building beginner-level AI solutions, including machine learning models and
-                  integrations.
-                </p>
-              </div>
-
-            </li>
-
-            <li class="service-item">
-
-              <div class="service-icon-box">
-                <img src="./assets/images/icon-design.svg" alt="Web design icon" width="40">
-              </div>
-
-              <div class="service-content-box">
-                <h4 class="h4 service-item-title">Web Design</h4>
-
-                <p class="service-item-text">
-                  Crafting modern, user-friendly, and visually appealing designs for websites at a professional level.
-                </p>
-              </div>
-
-            </li>
-
-          </ul>
-
-
-        </section>
-
-      </article>
-
-
-
-
-
-      <!--
-        - #RESUME
-      -->
-
-      <article class="resume" data-page="resume">
-
-        <header>
-          <h2 class="h2 article-title">Resume</h2>
-        </header>
-
-        <section class="timeline">
-
-          <div class="title-wrapper">
-            <div class="icon-box">
-              <ion-icon name="book-outline"></ion-icon>
-            </div>
-
-            <h3 class="h3">Education</h3>
-          </div>
-
-          <ol class="timeline-list">
-
-            <li class="timeline-item">
-
-            <li class="timeline-item">
-              <h4 class="h4 timeline-item-title">Esprit- Ecole Supérieure Privée d’Ingénierie et de Technologies</h4>
-              <span>Sep. 2022 — Présent</span>
-              <p class="timeline-text">
-                Ingénierie en informatique, spécialité Cloud
-              </p>
-            </li>
-
-            <li class="timeline-item">
-              <h4 class="h4 timeline-item-title">Institut Supérieur des Technologies de l’Informatique et de la
-                Communication</h4>
-              <span>Sep. 2019 — Juin 2022</span>
-              <p class="timeline-text">
-                Licence en informatique, génie logiciel et systèmes d’informations
-              </p>
-            </li>
-
-            <li class="timeline-item">
-              <h4 class="h4 timeline-item-title">Lycée les pères blancs</h4>
-              <span>Sep. 2018 — Juin 2019</span>
-              <p class="timeline-text">
-                Baccalauréat en mathématiques
-              </p>
-            </li>
-
-          </ol>
-
-        </section>
-        <section class="timeline">
-
-          <div class="title-wrapper">
-            <div class="icon-box">
-              <ion-icon name="book-outline"></ion-icon>
-            </div>
-            <h3 class="h3">Experience</h3>
-          </div>
-          <ol class="timeline-list">
-
-            <!-- SIGMAP -->
-            <li class="timeline-item">
-              <h4 class="h4 timeline-item-title">SIGMAP – Projet e-procurement gouvernemental (Mauritanie)</h4>
-              <span>Juin 2025 – Présent</span>
-              <p class="timeline-text">
-                Software Engineer — Ingénieur Full-Stack (Développement & DevOps/Cloud)<br>
-                Technologies: Angular, Spring Boot, DevOps/Cloud<br>
-                - Contribution au développement de la plateforme sur des sujets full-stack orientés
-                performance/scalabilité.<br>
-                - Conception et implémentation d’API REST avec Spring Boot.<br>
-                - Développement de composants Angular dynamiques et tableaux de bord.<br>
-                - Collaboration étroite avec des équipes pluridisciplinaires.
-              </p>
-            </li>
-
-            <!-- PFE Intern -->
-            <li class="timeline-item">
-              <h4 class="h4 timeline-item-title">Portail dynamique de gestion des approbations</h4>
-              <span>Jan. 2025 – Mai 2025</span>
-              <p class="timeline-text">
-                Software Engineer Intern — Stage PFE<br>
-                Technologies: Spring Boot, Angular, Camunda, ArgoCD, Docker, Kubernetes, Ansible, WebSocket<br>
-                - Développement d'un portail de gestion des approbations pour fluidifier les processus métiers.<br>
-                - Modélisation de workflows dynamiques avec Camunda BPM.<br>
-                - Mise en place d'une chaîne CI/CD avec ArgoCD et déploiement sur Kubernetes.<br>
-                - Automatisation de la configuration avec Ansible et monitoring temps réel.
-              </p>
-            </li>
-
-            <!-- FNZ -->
-            <li class="timeline-item">
-              <h4 class="h4 timeline-item-title">FNZ</h4>
-              <span>Juin 2024 – Août 2024</span>
-              <p class="timeline-text">
-                Stage ingénieur — DevOps & Full-Stack<br>
-                Technologies: Docker, Jenkins, SonarQube, Nexus, Splunk, React, Spring Boot<br>
-                - Déploiement d'une application Web Full-Stack avec Docker.<br>
-                - Mise en place de pipelines CI/CD avec Jenkins et Splunk pour le monitoring.<br>
-                - Analyse de qualité de code avec SonarQube et gestion des artefacts via Nexus.
-              </p>
-            </li>
-
-            <!-- E-Build -->
-            <li class="timeline-item">
-              <h4 class="h4 timeline-item-title">E-Build</h4>
-              <span>Janv. 2022 – Mai 2022</span>
-              <p class="timeline-text">
-                Stage de fin d’études — Développement CRM<br>
-                Technologies: Angular, FastAPI, Python<br>
-                - Conception et développement d’un CRM pour Labvet International.<br>
-                - Génération automatique de rapports d’analyse au format PDF.<br>
-                - Mise en place de pipelines de données avec Dataduct.
-              </p>
-            </li>
-
-          </ol>
-
-
-        </section>
-        <section class="timeline">
-
-          <div class="title-wrapper">
-            <div class="icon-box">
-              <ion-icon name="code-outline"></ion-icon>
-            </div>
-            <h3 class="h3">Academic Projects</h3>
-          </div>
-
-          <ol class="timeline-list">
-
-            <!-- LibroLink -->
-            <li class="timeline-item">
-              <h4 class="h4 timeline-item-title">LibroLink – BookShare Collaborative Platform</h4>
-              <span>Sep 2025 — Nov 2025</span>
-              <p class="timeline-text">
-                Developed a collaborative platform for book sharing, connecting enthusiasts and managing personal
-                libraries.<br>
-                Technologies: Laravel, PHP, MySQL<br>
-                <a href="https://github.com/Slouumaa/Bookshare" target="_blank"
-                  style="color:#0023bd; font-weight:bold; text-decoration:none;">
-                  GitHub: BookShare
-                </a><br>
-                - Implemented user roles, personal libraries, and wishlists<br>
-                - Integrated gamification, notifications, and activity tracking<br>
-                - Managed blogs, articles, comments, likes, and subscriptions<br>
-                - Enabled secure online payments for book loans and purchases
-              </p>
-            </li>
-
-            <!-- HubEducator -->
-            <li class="timeline-item">
-              <h4 class="h4 timeline-item-title">HubEducator – Multimodal Educational Platform</h4>
-              <span>Feb 2025 — May 2025</span>
-              <p class="timeline-text">
-                Developed a multimodal educational platform with AI-powered virtual assistant for learning and
-                coaching.<br>
-                Technologies: Django, Python, JavaScript, HTML, CSS<br>
-                <a href="https://github.com/YOSRcharek/HubEducator" target="_blank"
-                  style="color:#0023bd; font-weight:bold; text-decoration:none;">
-                  GitHub: HubEducator
-                </a><br>
-                - Implemented role-based user management for students, teachers, coaches, and administrators<br>
-                - Integrated virtual assistant with text, voice, and image interactions<br>
-                - Created course management, auto-generated exercises, and evaluation tracking<br>
-                - Built dashboards for personalized learning progress and teacher monitoring<br>
-                - Managed notifications, content, and platform administration
-              </p>
-            </li>
-
-            <!-- CI/CD Automation -->
-            <li class="timeline-item">
-              <h4 class="h4 timeline-item-title">CI/CD Automation with Jenkins</h4>
-              <span>Feb 2025 — May 2025</span>
-              <p class="timeline-text">
-                Automated application deployment with a CI/CD pipeline.<br>
-                Technologies: Jenkins, Docker, SonarQube, Nexus, Prometheus, Grafana, Mockito, JUnit, Maven<br>
-                <a href="https://github.com/YOSRcharek/DEVOPS" target="_blank"
-                  style="color:#0023bd; font-weight:bold; text-decoration:none;">
-                  GitHub: DEVOPS
-                </a><br>
-                - Executed Maven builds, unit testing with JUnit & Mockito, and code analysis via SonarQube<br>
-                - Used Docker for containerization, orchestrated with Docker Compose<br>
-                - Deployed images to Docker Hub<br>
-                - Monitored performance with Prometheus and Grafana
-              </p>
-            </li>
-
-            <!-- PetsStore -->
-            <li class="timeline-item">
-              <h4 class="h4 timeline-item-title">PetsStore – Microservices Platform</h4>
-              <span>Feb 2025 — May 2025</span>
-              <p class="timeline-text">
-                Developed a microservices-based pet store enabling animal orders, payments, and user management.<br>
-                Technologies: Spring Boot, Angular, Eureka, Docker, Docker Compose, MySQL, API Gateway, Keycloak<br>
-                <a href="https://github.com/YOSRcharek/AnimalerieMicroService" target="_blank"
-                  style="color:#0023bd; font-weight:bold; text-decoration:none;">
-                  GitHub: PetsStore
-                </a><br>
-                - Documented all microservices endpoints with request/response formats<br>
-                - Implemented service discovery with Eureka and API Gateway<br>
-                - Secured services with Keycloak<br>
-                - Deployed and orchestrated with Docker Compose
-              </p>
-            </li>
-
-            <!-- Freelance Project -->
-            <li class="timeline-item">
-              <h4 class="h4 timeline-item-title">Freelance Project – Solar Panel Company Website</h4>
-              <span>March 2025 — May 2025</span>
-              <p class="timeline-text">
-                Designed and developed a showcase website for a company specializing in solar panels.<br>
-                Technologies: Symfony, Twig, Bootstrap, MySQL, UML, HTML, CSS, JavaScript<br>
-                - Created an attractive and fully responsive user interface aligned with the company’s visual
-                identity<br>
-                - Developed key features including:<br>
-                • Presentation of offered services<br>
-                • Dynamic display of customer reviews<br>
-                • Simple and efficient booking system
-              </p>
-            </li>
-
-            <!-- Smart Emergency Management System -->
-            <li class="timeline-item">
-              <h4 class="h4 timeline-item-title">Smart Emergency Management System – Academic Project</h4>
-              <span>January 2025 — March 2025</span>
-              <p class="timeline-text">
-                Developed an innovative web application to improve emergency department management in hospitals.<br>
-                Technologies: MERN Stack (MongoDB, Express.js, React, Node.js), JWT, AI (Automated Triage),
-                WebSockets<br>
-                - Implemented secure authentication for multiple user roles (doctors, nurses, administrators)<br>
-                - Began integration of AI for automated patient triage based on symptom severity<br>
-                - Enabled real-time management of medical resources and patient flow using WebSockets<br>
-                - Defined functional and technical requirements for future predictive and interactive features<br>
-                - Focused on AI integration and optimization of hospital workflows<br>
-                <a href="https://github.com/ahmedth20/Twinners_PI" target="_blank"
-                  style="color:#0023bd; font-weight:bold; text-decoration:none;">
-                  GitHub: Smart Emergency Project
-                </a>
-              </p>
-            </li>
-
-            <!-- MediConnect -->
-            <li class="timeline-item">
-              <h4 class="h4 timeline-item-title">MediConnect – Multi-platform Medical Solution</h4>
-              <span>April 2024 — June 2024</span>
-              <p class="timeline-text">
-                Academic Project – Higher School of Engineering and Technology<br>
-                Technologies: <br>
-                • Desktop: JavaFX, MySQL<br>
-                • Web: Symfony, Twig, Bootstrap, MySQL<br>
-                • Mobile: FlutterFlow, Firebase<br>
-                - Developed a multi-platform solution (Desktop, Web, Mobile) for managing medical data, products, and
-                events<br>
-                - Integrated key features: user authentication, CRUD for products and events, and personalized
-                reports<br>
-                - Designed intuitive interfaces and optimized user experience<br>
-                - Collaborated with the team to define functional and technical needs to ensure a solution adapted to
-                medical services<br>
-                <a href="https://github.com/LaameriSayf/PIDev" target="_blank"
-                  style="color:#0023bd; font-weight:bold; text-decoration:none;">
-                  GitHub: MediConnect
-                </a>
-              </p>
-            </li>
-
-          </ol>
-
-
-        </section>
-
-        <section class="skills">
-          <h3 class="h3 skills-title">My Skills & Technologies</h3>
-          <div class="skills-container">
-
-            <!-- Programming Languages -->
-            <div class="skill-category">
-              <h4 class="h4 category-title">Programming Languages</h4>
-              <ul class="skills-list">
-                <li class="skills-item">
-                  <div class="skill-card"><span class="skill-icon">☕</span><span class="skill-name">Java (J2EE, JavaFX,
-                      Java AWT)</span></div>
-                </li>
-                <li class="skills-item">
-                  <div class="skill-card"><span class="skill-icon">💻</span><span class="skill-name">JavaScript</span>
-                  </div>
-                </li>
-                <li class="skills-item">
-                  <div class="skill-card"><span class="skill-icon">🐍</span><span class="skill-name">Python</span></div>
-                </li>
-                <li class="skills-item">
-                  <div class="skill-card"><span class="skill-icon">🐘</span><span class="skill-name">PHP</span></div>
-                </li>
-                <li class="skills-item">
-                  <div class="skill-card"><span class="skill-icon">🎯</span><span class="skill-name">C#</span></div>
-                </li>
-                <li class="skills-item">
-                  <div class="skill-card"><span class="skill-icon">🦋</span><span class="skill-name">Dart
-                      (Flutter)</span></div>
-                </li>
-                <li class="skills-item">
-                  <div class="skill-card"><span class="skill-icon">🤖</span><span class="skill-name">Kotlin
-                      (Android)</span></div>
-                </li>
-              </ul>
-            </div>
-
-            <!-- Frontend Frameworks & Technologies -->
-            <div class="skill-category">
-              <h4 class="h4 category-title">Frontend Frameworks & Technologies</h4>
-              <ul class="skills-list">
-                <li class="skills-item">
-                  <div class="skill-card"><span class="skill-icon">⚛️</span><span class="skill-name">React.js</span>
-                  </div>
-                </li>
-                <li class="skills-item">
-                  <div class="skill-card"><span class="skill-icon">🅰️</span><span class="skill-name">Angular</span>
-                  </div>
-                </li>
-                <li class="skills-item">
-                  <div class="skill-card"><span class="skill-icon">🎨</span><span class="skill-name">Bootstrap 5</span>
-                  </div>
-                </li>
-                <li class="skills-item">
-                  <div class="skill-card"><span class="skill-icon">🖌️</span><span class="skill-name">JavaFX</span>
-                  </div>
-                </li>
-                <li class="skills-item">
-                  <div class="skill-card"><span class="skill-icon">🟦</span><span class="skill-name">Flutter</span>
-                  </div>
-                </li>
-                <li class="skills-item">
-                  <div class="skill-card"><span class="skill-icon">📱</span><span class="skill-name">Android SDK</span>
-                  </div>
-                </li>
-              </ul>
-            </div>
-
-            <!-- Backend Frameworks & Technologies -->
-            <div class="skill-category">
-              <h4 class="h4 category-title">Backend Frameworks & Technologies</h4>
-              <ul class="skills-list">
-                <li class="skills-item">
-                  <div class="skill-card"><span class="skill-icon">🚀</span><span class="skill-name">Spring Boot</span>
-                  </div>
-                </li>
-                <li class="skills-item">
-                  <div class="skill-card"><span class="skill-icon">⚙️</span><span class="skill-name">Camunda BPM</span>
-                  </div>
-                </li>
-                <li class="skills-item">
-                  <div class="skill-card"><span class="skill-icon">🐍</span><span class="skill-name">FastAPI</span>
-                  </div>
-                </li>
-                <li class="skills-item">
-                  <div class="skill-card"><span class="skill-icon">🟢</span><span class="skill-name">Node.js</span>
-                  </div>
-                </li>
-
-              </ul>
-            </div>
-
-
-
-          </div>
-
-          <!-- Databases -->
-          <div class="skill-category">
-            <h4 class="h4 category-title">Databases</h4>
-            <ul class="skills-list">
-              <li class="skills-item">
-                <div class="skill-card"><span class="skill-icon">🗃️</span><span class="skill-name">MySQL</span></div>
-              </li>
-              <li class="skills-item">
-                <div class="skill-card"><span class="skill-icon">🔢</span><span class="skill-name">PL/SQL</span></div>
-              </li>
-              <li class="skills-item">
-                <div class="skill-card"><span class="skill-icon">🖥️</span><span class="skill-name">SQL Server</span>
-                </div>
-              </li>
-              <li class="skills-item">
-                <div class="skill-card"><span class="skill-icon">🍃</span><span class="skill-name">MongoDB</span></div>
-              </li>
-              <li class="skills-item">
-                <div class="skill-card"><span class="skill-icon">🔥</span><span class="skill-name">Firebase</span></div>
-              </li>
-              <li class="skills-item">
-                <div class="skill-card"><span class="skill-icon">🐘</span><span class="skill-name">PostgreSQL</span>
-                </div>
-              </li>
-
-            </ul>
-          </div>
-
-          <!-- Web Services -->
-          <div class="skill-category">
-            <h4 class="h4 category-title">Web Services</h4>
-            <ul class="skills-list">
-              <li class="skills-item">
-                <div class="skill-card"><span class="skill-icon">🔗</span><span class="skill-name">API REST</span></div>
-              </li>
-              <li class="skills-item">
-                <div class="skill-card"><span class="skill-icon">🧾</span><span class="skill-name">SOAP</span></div>
-              </li>
-              <li class="skills-item">
-                <div class="skill-card"><span class="skill-icon">📊</span><span class="skill-name">GraphQL</span></div>
-              </li>
-            </ul>
-          </div>
-
-          <!-- Cloud & DevOps -->
-          <div class="skill-category">
-            <h4 class="h4 category-title">Cloud & DevOps</h4>
-            <ul class="skills-list">
-              <li class="skills-item">
-                <div class="skill-card"><span class="skill-icon">☁️</span><span class="skill-name">AWS</span></div>
-              </li>
-              <li class="skills-item">
-                <div class="skill-card"><span class="skill-icon">🐳</span><span class="skill-name">Docker</span></div>
-              </li>
-              <li class="skills-item">
-                <div class="skill-card"><span class="skill-icon">☸️</span><span class="skill-name">Kubernetes</span>
-                </div>
-              </li>
-              <li class="skills-item">
-                <div class="skill-card"><span class="skill-icon">🐙</span><span class="skill-name">ArgoCD</span></div>
-              </li>
-              <li class="skills-item">
-                <div class="skill-card"><span class="skill-icon">📜</span><span class="skill-name">Ansible</span></div>
-              </li>
-              <li class="skills-item">
-                <div class="skill-card"><span class="skill-icon">⚙️</span><span class="skill-name">Jenkins</span></div>
-              </li>
-              <li class="skills-item">
-                <div class="skill-card"><span class="skill-icon">🔍</span><span class="skill-name">SonarQube</span>
-                </div>
-              </li>
-              <li class="skills-item">
-                <div class="skill-card"><span class="skill-icon">📦</span><span class="skill-name">Nexus</span></div>
-              </li>
-            </ul>
-          </div>
-
-          <!-- Development Tools -->
-          <div class="skill-category">
-            <h4 class="h4 category-title">Development Tools</h4>
-            <ul class="skills-list">
-              <li class="skills-item">
-                <div class="skill-card"><span class="skill-icon">🔗</span><span class="skill-name">Git</span></div>
-              </li>
-              <li class="skills-item">
-                <div class="skill-card"><span class="skill-icon">🐙</span><span class="skill-name">GitHub</span></div>
-              </li>
-            </ul>
-          </div>
-
-          <!-- Methodologies -->
-          <div class="skill-category">
-            <h4 class="h4 category-title">Methodologies</h4>
-            <ul class="skills-list">
-              <li class="skills-item">
-                <div class="skill-card"><span class="skill-icon">🔄</span><span class="skill-name">Agile</span></div>
-              </li>
-              <li class="skills-item">
-                <div class="skill-card"><span class="skill-icon">📋</span><span class="skill-name">Scrum</span></div>
-              </li>
-              <li class="skills-item">
-                <div class="skill-card"><span class="skill-icon">⚙️</span><span class="skill-name">DevOps</span></div>
-              </li>
-            </ul>
-          </div>
-
-        </section>
-
-
-
-
-
-
-
-      </article>
-
-
-
-
-
-      <!--
-        - #PORTFOLIO
-      -->
-
-      <article class="portfolio" data-page="portfolio">
-
-        <header>
-          <h2 class="h2 article-title">Portfolio</h2>
-        </header>
-
-        <section class="projects">
-
-          <ul class="filter-list">
-
-            <li class="filter-item">
-              <button class="active" data-filter-btn>All</button>
-            </li>
-
-          </ul>
-
-
-          <ul class="project-list">
-            <li class="project-item active" data-filter-item data-category="Full-Stack & Workflow">
-              <a href="https://github.com/SeifeddineABIDI/Approbation-frontend" target="_blank">
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-                  <img
-                    src="data:image/svg+xml;charset=utf-8,%3Csvg width='800' height='600' viewBox='0 0 800 600' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Crect width='800' height='600' fill='%230C0C0E'/%3E%3Crect x='50' y='50' width='700' height='500' rx='20' fill='white' fill-opacity='0.05'/%3E%3Crect x='50' y='50' width='700' height='500' rx='20' stroke='white' stroke-opacity='0.1'/%3E%3Crect x='100' y='100' width='200' height='150' rx='12' fill='%233B82F6' fill-opacity='0.1' stroke='%233B82F6' stroke-opacity='0.3'/%3E%3Ccircle cx='200' cy='175' r='30' stroke='%233B82F6' stroke-width='4'/%3E%3Cpath d='M185 175L195 185L215 165' stroke='%233B82F6' stroke-width='4' stroke-linecap='round' stroke-linejoin='round'/%3E%3Crect x='330' y='100' width='370' height='20' rx='4' fill='white' fill-opacity='0.05'/%3E%3Crect x='330' y='140' width='300' height='15' rx='4' fill='white' fill-opacity='0.03'/%3E%3Crect x='330' y='170' width='340' height='15' rx='4' fill='white' fill-opacity='0.03'/%3E%3C/svg%3E"
-                    alt="Portail de gestion d’approbation" loading="lazy">
-                </figure>
-                <h3 class="project-title">Portail de gestion d’approbation</h3>
-                <p class="project-category">Angular | Spring Boot | Camunda</p>
-              </a>
-            </li>
-
-            <li class="project-item active" data-filter-item data-category="Full-Stack & DevOps">
-              <a href="https://sigmap.gov.mr/" target="_blank">
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-                  <img
-                    src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?q=80&w=2015&auto=format&fit=crop"
-                    alt="SIGMAP" loading="lazy">
-                </figure>
-                <h3 class="project-title">SIGMAP</h3>
-                <p class="project-category">Angular | Spring Boot | DevOps</p>
-              </a>
-            </li>
-
-            <li class="project-item active" data-filter-item data-category="Full-Stack">
-              <a href="https://www.labvet-international.com/en/" target="_blank">
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-                  <img
-                    src="data:image/svg+xml;charset=utf-8,%3Csvg width='800' height='600' viewBox='0 0 800 600' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Crect width='800' height='600' fill='%230C0C0E'/%3E%3Cpath d='M100 450C200 450 250 150 400 150C550 150 600 350 700 350' stroke='%2310B981' stroke-width='4' stroke-linecap='round'/%3E%3Ccircle cx='400' cy='150' r='10' fill='%2310B981'/%3E%3Crect x='100' y='50' width='600' height='500' rx='20' fill='white' fill-opacity='0.02' stroke='white' stroke-opacity='0.1'/%3E%3Crect x='150' y='100' width='100' height='100' rx='50' stroke='%2310B981' stroke-opacity='0.5' stroke-dasharray='10 5'/%3E%3C/svg%3E"
-                    alt="CRM Labvet International" loading="lazy">
-                </figure>
-                <h3 class="project-title">CRM Labvet International</h3>
-                <p class="project-category">Angular | FastAPI | PDF Generation</p>
-              </a>
-            </li>
-
-
-
-
-          </ul>
-
-        </section>
-
-      </article>
-
-
-
-
-
-      <!--
-        - #CERTIFICATIONS
-      -->
-
-
-      <!--
-        - #CONTACT
-      -->
-
-      <article class="contact" data-page="contact">
-
-        <header>
-          <h2 class="h2 article-title">Contact</h2>
-        </header>
-
-        <section class="mapbox" data-mapbox>
-          <figure>
-            <iframe
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d102213.97223035532!2d10.106880053915124!3d36.80649479904221!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12fd337f5e7ef543%3A0xc49dbf67823e203!2sTunis%2C%20Tunisie!5e0!3m2!1sfr!2stn!4v1759777453233!5m2!1sfr!2stn"
-              width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
-              referrerpolicy="no-referrer-when-downgrade"></iframe>
-          </figure>
-        </section>
-
-        <section class="contact-form">
-
-          <h3 class="h3 form-title">Contact Form</h3>
-
-          <form action="#" class="form" data-form>
-
-            <div class="input-wrapper">
-              <input type="text" name="fullname" class="form-input" placeholder="Full name" required data-form-input>
-
-              <input type="email" name="email" class="form-input" placeholder="Email address" required data-form-input>
-            </div>
-
-            <textarea name="message" class="form-input" placeholder="Your Message" required data-form-input></textarea>
-
-            <button class="form-btn" type="submit" disabled data-form-btn>
-              <ion-icon name="paper-plane"></ion-icon>
-              <span>Send Message</span>
+          <div class="hero-ctas">
+            <a href="#projects" class="btn btn-primary">
+              <span data-i18n="hero_btn_projects">View Production Systems</span>
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+            </a>
+
+            <button class="btn btn-secondary open-terminal-btn">
+              <span data-i18n="hero_btn_cli">Launch Terminal CLI</span>
+              <span style="font-family:var(--font-mono); font-size:0.8rem; opacity:0.8;">&gt;_</span>
             </button>
 
-          </form>
+            <a href="#contact" class="btn btn-outline" data-i18n="hero_btn_contact">
+              Get In Touch
+            </a>
+          </div>
 
-        </section>
+          <div class="hero-socials">
+            <span data-i18n="hero_connect">Connect &amp; Verify:</span>
+            <a href="https://github.com/seifeddineABIDI" target="_blank" rel="noopener noreferrer">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/></svg>
+              GitHub
+            </a>
+            <a href="https://www.linkedin.com/in/seifeddineabidi/" target="_blank" rel="noopener noreferrer">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg>
+              LinkedIn
+            </a>
+            <a href="mailto:seifeddine.abidi@esprit.tn">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+              Email
+            </a>
+          </div>
 
-      </article>
+          <!-- Innovative Feature: 1-Click Developer API Box -->
+          <div class="dev-curl-box">
+            <span class="cmd-prefix">$</span>
+            <code class="dev-curl-code">curl -s https://api.seifeddine.dev/profile.json</code>
+            <button class="dev-curl-copy-btn" data-copy-target="curl -s https://api.seifeddine.dev/profile.json" title="Copy developer curl command">
+              <span data-i18n="copy_btn">Copy</span>
+            </button>
+          </div>
+        </div>
 
-    </div>
-    <!-- Modal Carousel -->
-    <div id="carouselModal" class="modal">
-      <div class="modal-content">
-        <span class="close-btn">&times;</span>
-        <div class="my-carousel">
-          <div class="stage">
-            <div class="container">
-              <div class="ring">
-                <!-- 15 images -->
-                <div class="img"></div>
-                <div class="img"></div>
-                <div class="img"></div>
-                <div class="img"></div>
-                <div class="img"></div>
-                <div class="img"></div>
-                <div class="img"></div>
-                <div class="img"></div>
-                <div class="img"></div>
-                <div class="img"></div>
-                <div class="img"></div>
-                <div class="img"></div>
-                <div class="img"></div>
-                <div class="img"></div>
-                <div class="img"></div>
+        <!-- Right: Executive Engineer Profile Card + Live Terminal Widget -->
+        <div class="hero-hub-card">
+          
+          <!-- Executive Engineer Profile Card -->
+          <div class="hero-engineer-card">
+            <div class="hero-card-img-wrap">
+              <img src="./assets/images/5a502eed-43f5-4203-bd0e-49dd9a714610.jpg" alt="Seifeddine ABIDI" class="hero-card-img">
+            </div>
+            <div class="hero-card-info">
+              <span class="hero-card-name">Seifeddine ABIDI</span>
+              <span class="hero-card-role" data-i18n="hero_card_role">Full-Stack &amp; DevOps/Cloud Engineer</span>
+              <div class="hero-card-badges">
+                <span class="hero-mini-badge" data-i18n="hero_card_badge_tia">Prod:Tunisia Investment Authority (PNI)</span>
+                <span class="hero-mini-badge" data-i18n="hero_card_badge_sigmap">Prod: SIGMAP (National e-Procurement)</span>
+                <span class="hero-mini-badge" data-i18n="hero_card_badge_k8s">Kubernetes &amp; ArgoCD GitOps</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Live Interactive Terminal -->
+          <div class="terminal-window">
+            <div class="terminal-header">
+              <div class="terminal-dots">
+                <span class="terminal-dot dot-red"></span>
+                <span class="terminal-dot dot-yellow"></span>
+                <span class="terminal-dot dot-green"></span>
+              </div>
+              <div class="terminal-title">
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="4 17 10 11 4 5"/><line x1="12" y1="19" x2="20" y2="19"/></svg>
+                <span>bash — seif@production-node-01</span>
+              </div>
+              <span class="terminal-badge">LIVE CLUSTERS</span>
+            </div>
+
+            <div class="terminal-body" id="heroTerminalOutput">
+              <div class="terminal-line">
+                <span class="terminal-prompt">seif@cloud:~$</span>
+                <span class="terminal-cmd">cat active-production-systems.json</span>
+              </div>
+              <div class="terminal-output">
+                <div class="terminal-line">{</div>
+                <div class="terminal-line">&nbsp;&nbsp;<span class="val-cyan">"engineer"</span>: <span class="val-green">"Seifeddine ABIDI"</span>,</div>
+                <div class="terminal-line">&nbsp;&nbsp;<span class="val-cyan">"production_deployments"</span>: [</div>
+                <div class="terminal-line">&nbsp;&nbsp;&nbsp;&nbsp;<span class="val-green">"https://tunisiainvestment.tn (TIA Production)"</span>,</div>
+                <div class="terminal-line">&nbsp;&nbsp;&nbsp;&nbsp;<span class="val-green">"https://sigmap.gov.mr (SIGMAP National e-Procurement)"</span></div>
+                <div class="terminal-line">&nbsp;&nbsp;],</div>
+                <div class="terminal-line">&nbsp;&nbsp;<span class="val-cyan">"infrastructure"</span>: <span class="val-purple">"Kubernetes • ArgoCD • Docker • Traefik • Keycloak"</span>,</div>
+                <div class="terminal-line">&nbsp;&nbsp;<span class="val-cyan">"stack"</span>: <span class="val-amber">"Spring Boot • Angular • Camunda BPM • PostgreSQL"</span>,</div>
+                <div class="terminal-line">&nbsp;&nbsp;<span class="val-cyan">"status"</span>: <span class="val-green">"SYNCHRONIZED (99.98% High Availability)"</span></div>
+                <div class="terminal-line">}</div>
+              </div>
+            </div>
+
+            <!-- Dedicated Aligned Terminal Quick Inspect Bar -->
+            <div class="terminal-quick-bar">
+              <div class="quick-inspect-label">
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/></svg>
+                <span data-i18n="term_quick_label">Quick Inspect:</span>
+              </div>
+              <div class="quick-inspect-buttons">
+                <button class="quick-cmd-btn" data-hero-cmd="status" data-cmd-label="seif status --production">sys:status</button>
+                <button class="quick-cmd-btn" data-hero-cmd="skills" data-cmd-label="cat tech-matrix.yaml">sys:skills</button>
+                <button class="quick-cmd-btn" data-hero-cmd="experience" data-cmd-label="git log --oneline --career">sys:career</button>
+                <button class="quick-cmd-btn" data-hero-cmd="contact" data-cmd-label="curl api.seif.dev/contact">sys:contact</button>
               </div>
             </div>
           </div>
         </div>
+
       </div>
-    </div>
-    <div id="carouselModalResa" class="modal">
-      <div class="modal-content">
-        <span class="close-btn">&times;</span>
-        <div class="my-carousel resa-carousel">
-          <div class="stage">
-            <div class="container">
-              <div class="ring">
-                <!-- IMPORTANT ⚡⚡ 12 divs img vides pour que GSAP applique les backgroundImage -->
-                <div class="img"></div>
-                <div class="img"></div>
-                <div class="img"></div>
-                <div class="img"></div>
-                <div class="img"></div>
-                <div class="img"></div>
-                <div class="img"></div>
-                <div class="img"></div>
-                <div class="img"></div>
-                <div class="img"></div>
-                <div class="img"></div>
-                <div class="img"></div>
-              </div>
-            </div>
+
+      <!-- Engineering Stats Bar -->
+      <div class="stats-bar">
+        <div class="container stats-grid">
+          <div class="stat-item">
+            <span class="stat-number" data-i18n="stat_exp_num">2+ Years</span>
+            <span class="stat-label" data-i18n="stat_exp_lbl">Engineering Experience</span>
+          </div>
+          <div class="stat-item">
+            <span class="stat-number" data-i18n="stat_prod_num">GOV &amp; PROD</span>
+            <span class="stat-label" data-i18n="stat_prod_lbl">Live National Platforms (TIA &amp; SIGMAP)</span>
+          </div>
+          <div class="stat-item">
+            <span class="stat-number" data-i18n="stat_gitops_num">GITOPS &amp; K8S</span>
+            <span class="stat-label" data-i18n="stat_gitops_lbl">Automated Cloud Delivery</span>
+          </div>
+          <div class="stat-item">
+            <span class="stat-number" data-i18n="stat_projects_num">10+ Systems</span>
+            <span class="stat-label" data-i18n="stat_projects_lbl">Distributed &amp; Full-Stack Projects</span>
           </div>
         </div>
       </div>
-    </div>
-    <div id="carouselModalTuniCollab" class="modal">
-      <div class="modal-content">
-        <span class="close-btn">&times;</span>
-        <div class="my-carousel TuniCollab-carousel">
-          <div class="stage">
-            <div class="container">
-              <div class="ring">
-                <!-- IMPORTANT ⚡⚡ 16 divs img vides pour que GSAP applique les backgroundImage -->
-                <div class="img"></div>
-                <div class="img"></div>
-                <div class="img"></div>
-                <div class="img"></div>
-                <div class="img"></div>
-                <div class="img"></div>
-                <div class="img"></div>
-                <div class="img"></div>
-                <div class="img"></div>
-                <div class="img"></div>
-                <div class="img"></div>
-                <div class="img"></div>
-                <div class="img"></div>
-                <div class="img"></div>
-                <div class="img"></div>
-                <div class="img">
+    </section>
+
+
+    <!-- ==================== ABOUT & PILLARS ==================== -->
+    <section class="section" id="about">
+      <div class="container">
+        
+        <div class="section-tag">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M12 16v-4M12 8h.01"/></svg>
+          <span data-i18n="about_tag">ENGINEERING PROFILE</span>
+        </div>
+
+        <h2 class="section-title" data-i18n="about_title">Bridging Modern Full-Stack Development with Enterprise Cloud Operations</h2>
+        <p class="section-desc" data-i18n="about_desc">
+          I design, build, and operate resilient software solutions end-to-end — from responsive, accessible Angular frontends to enterprise Spring Boot microservices, automated Camunda workflows, and GitOps-governed Kubernetes infrastructure.
+        </p>
+
+        <div class="about-grid">
+          <!-- Left: Identity Profile Card with Image -->
+          <div class="profile-card">
+            <div class="profile-img-wrap">
+              <img src="./assets/images/5a502eed-43f5-4203-bd0e-49dd9a714610.jpg" alt="Seifeddine ABIDI" class="profile-img">
+            </div>
+            <h3 class="profile-name">Seifeddine ABIDI</h3>
+            <p class="profile-title" data-i18n="about_role">Ingénieur Full-Stack &amp; DevOps/Cloud</p>
+
+            <ul class="profile-meta-list">
+              <li class="profile-meta-item">
+                <span class="profile-meta-label">
+                  <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+                  <span data-i18n="about_loc_lbl">Location</span>
+                </span>
+                <span class="profile-meta-val" data-i18n="about_loc_val">Tunis, Tunisia (Remote / Relocation)</span>
+              </li>
+              <li class="profile-meta-item">
+                <span class="profile-meta-label">
+                  <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 10v6M2 10l10-5 10 5-10 5z"/><path d="M6 12v5c3 3 9 3 12 0v-5"/></svg>
+                  <span data-i18n="about_edu_lbl">Education</span>
+                </span>
+                <span class="profile-meta-val" data-i18n="about_edu_val">Esprit (Cloud) • ISTIC (Software)</span>
+              </li>
+              <li class="profile-meta-item">
+                <span class="profile-meta-label">
+                  <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg>
+                  <span data-i18n="about_lang_lbl">Languages</span>
+                </span>
+                <span class="profile-meta-val" data-i18n="about_lang_val">French (Fluent) • English • Arabic</span>
+              </li>
+              <li class="profile-meta-item">
+                <span class="profile-meta-label">
+                  <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+                  <span data-i18n="about_avail_lbl">Availability</span>
+                </span>
+                <span class="profile-meta-val" style="color:var(--accent-emerald);" data-i18n="about_avail_val">Immediate / Open for Roles</span>
+              </li>
+            </ul>
+          </div>
+
+          <!-- Right: Four Core Engineering Pillars -->
+          <div class="about-content">
+            <p class="about-text" data-i18n="about_text">
+              My software engineering philosophy revolves around <strong>performance, automated reliability, and clear system architecture</strong>. Rather than treating frontend, backend, and infrastructure as isolated silos, I bridge them seamlessly — ensuring that code written for the browser runs reliably through containerized pipelines onto high-availability cloud clusters.
+            </p>
+
+            <div class="about-pillars">
+              <div class="pillar-card">
+                <div class="pillar-icon">
+                  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="3" width="20" height="14" rx="2" ry="2"/><line x1="8" y1="21" x2="16" y2="21"/><line x1="12" y1="17" x2="12" y2="21"/></svg>
+                </div>
+                <h4 class="pillar-title" data-i18n="pillar1_title">Full-Stack Architecture</h4>
+                <p class="pillar-desc" data-i18n="pillar1_desc">
+                  Building enterprise REST APIs with Spring Boot, FastAPI, and modular reactive user interfaces with Angular &amp; React.
+                </p>
+              </div>
+
+              <div class="pillar-card">
+                <div class="pillar-icon">
+                  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 10h-1.26A8 8 0 1 0 9 20h9a5 5 0 0 0 0-10z"/></svg>
+                </div>
+                <h4 class="pillar-title" data-i18n="pillar2_title">Cloud &amp; GitOps Infrastructure</h4>
+                <p class="pillar-desc" data-i18n="pillar2_desc">
+                  Declarative Kubernetes cluster deployments using ArgoCD, containerization with Docker, and provisioning via Ansible &amp; Jenkins.
+                </p>
+              </div>
+
+              <div class="pillar-card">
+                <div class="pillar-icon">
+                  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg>
+                </div>
+                <h4 class="pillar-title" data-i18n="pillar3_title">Workflow Automation (BPM)</h4>
+                <p class="pillar-desc" data-i18n="pillar3_desc">
+                  Dynamic business process modeling using Camunda BPM, orchestrating complex approval paths with zero-code runtime adaptability.
+                </p>
+              </div>
+
+              <div class="pillar-card">
+                <div class="pillar-icon">
+                  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2v20M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"/></svg>
+                </div>
+                <h4 class="pillar-title" data-i18n="pillar4_title">Observability &amp; Governance</h4>
+                <p class="pillar-desc" data-i18n="pillar4_desc">
+                  Continuous code quality scanning with SonarQube, artifact management with Nexus/Verdaccio, and telemetry via Splunk &amp; Prometheus.
+                </p>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+
+    <!-- ==================== SKILLS & ARCHITECTURE MATRIX ==================== -->
+    <section class="section" id="architecture" style="background: rgba(22, 27, 34, 0.4);">
+      <div class="container">
+        
+        <div class="section-tag">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="7" height="7"/><rect x="14" y="3" width="7" height="7"/><rect x="14" y="14" width="7" height="7"/><rect x="3" y="14" width="7" height="7"/></svg>
+          <span data-i18n="skills_tag">TECHNICAL MATRIX</span>
+        </div>
+
+        <h2 class="section-title" data-i18n="skills_title">System Architecture &amp; Technology Stack</h2>
+        <p class="section-desc" data-i18n="skills_desc">
+          Structured by architectural layers to highlight real-world production engineering competencies across the software lifecycle.
+        </p>
+
+        <div class="skills-matrix-grid">
+          
+          <!-- Layer 1: Backend & Distributed Systems -->
+          <div class="matrix-card">
+            <div class="matrix-header">
+              <div class="matrix-icon-box">☕</div>
+              <div>
+                <h3 class="matrix-category-title" data-i18n="cat_backend_title">Backend &amp; Distributed Systems</h3>
+                <p class="matrix-category-desc" data-i18n="cat_backend_desc">Microservices, Enterprise APIs &amp; Process Orchestration</p>
+              </div>
+            </div>
+            <div class="skills-tags-wrap">
+              <span class="skill-tag featured"><span class="skill-icon">🚀</span> Java / Spring Boot</span>
+              <span class="skill-tag featured"><span class="skill-icon">⚙️</span> Camunda BPM (BPMN 2.0)</span>
+              <span class="skill-tag"><span class="skill-icon">🐍</span> Python / FastAPI</span>
+              <span class="skill-tag"><span class="skill-icon">⚡</span> RESTful Web APIs</span>
+              <span class="skill-tag"><span class="skill-icon">📊</span> GraphQL (Apollo)</span>
+              <span class="skill-tag"><span class="skill-icon">🔄</span> WebSockets (Real-time)</span>
+              <span class="skill-tag"><span class="skill-icon">🔒</span> Spring Security &amp; Keycloak</span>
+              <span class="skill-tag"><span class="skill-icon">📦</span> Eureka &amp; API Gateway</span>
+              <span class="skill-tag"><span class="skill-icon">🦄</span> Django &amp; Flask</span>
+            </div>
+          </div>
+
+          <!-- Layer 2: Cloud, DevOps & SRE -->
+          <div class="matrix-card">
+            <div class="matrix-header">
+              <div class="matrix-icon-box">☸️</div>
+              <div>
+                <h3 class="matrix-category-title" data-i18n="cat_devops_title">Cloud, DevOps &amp; Site Reliability</h3>
+                <p class="matrix-category-desc" data-i18n="cat_devops_desc">Containers, GitOps Pipelines &amp; Observability</p>
+              </div>
+            </div>
+            <div class="skills-tags-wrap">
+              <span class="skill-tag featured"><span class="skill-icon">🐳</span> Docker &amp; Compose</span>
+              <span class="skill-tag featured"><span class="skill-icon">☸️</span> Kubernetes (K8s)</span>
+              <span class="skill-tag featured"><span class="skill-icon">🐙</span> ArgoCD (GitOps)</span>
+              <span class="skill-tag"><span class="skill-icon">📜</span> Ansible Automation</span>
+              <span class="skill-tag"><span class="skill-icon">⚙️</span> Jenkins CI/CD</span>
+              <span class="skill-tag"><span class="skill-icon">🚦</span> Traefik Ingress &amp; TLS</span>
+              <span class="skill-tag"><span class="skill-icon">☁️</span> AWS Cloud</span>
+              <span class="skill-tag"><span class="skill-icon">🔍</span> SonarQube Code Quality</span>
+              <span class="skill-tag"><span class="skill-icon">📊</span> Splunk Datacenter Telemetry</span>
+              <span class="skill-tag"><span class="skill-icon">📈</span> Prometheus &amp; Grafana</span>
+            </div>
+          </div>
+
+          <!-- Layer 3: Frontend Architecture -->
+          <div class="matrix-card">
+            <div class="matrix-header">
+              <div class="matrix-icon-box">🅰️</div>
+              <div>
+                <h3 class="matrix-category-title" data-i18n="cat_frontend_title">Frontend Architecture &amp; Interfaces</h3>
+                <p class="matrix-category-desc" data-i18n="cat_frontend_desc">Component-Driven SPAs, Reactive State &amp; UI Systems</p>
+              </div>
+            </div>
+            <div class="skills-tags-wrap">
+              <span class="skill-tag featured"><span class="skill-icon">🅰️</span> Angular (15+)</span>
+              <span class="skill-tag featured"><span class="skill-icon">⚛️</span> React.js</span>
+              <span class="skill-tag"><span class="skill-icon">🔷</span> TypeScript</span>
+              <span class="skill-tag"><span class="skill-icon">⚡</span> JavaScript (ES6+)</span>
+              <span class="skill-tag"><span class="skill-icon">🎨</span> CSS3 / SCSS / Responsive</span>
+              <span class="skill-tag"><span class="skill-icon">📱</span> Flutter &amp; Android SDK</span>
+              <span class="skill-tag"><span class="skill-icon">🎛️</span> RxJS &amp; Reactive State</span>
+            </div>
+          </div>
+
+          <!-- Layer 4: Databases & Software Methodologies -->
+          <div class="matrix-card">
+            <div class="matrix-header">
+              <div class="matrix-icon-box">🗄️</div>
+              <div>
+                <h3 class="matrix-category-title" data-i18n="cat_db_title">Databases &amp; Software Engineering</h3>
+                <p class="matrix-category-desc" data-i18n="cat_db_desc">Data Modeling, Transactions &amp; Agile Engineering</p>
+              </div>
+            </div>
+            <div class="skills-tags-wrap">
+              <span class="skill-tag featured"><span class="skill-icon">🐘</span> PostgreSQL</span>
+              <span class="skill-tag featured"><span class="skill-icon">🗃️</span> MySQL</span>
+              <span class="skill-tag"><span class="skill-icon">🍃</span> MongoDB</span>
+              <span class="skill-tag"><span class="skill-icon">🔥</span> Firebase Firestore</span>
+              <span class="skill-tag"><span class="skill-icon">📁</span> Alfresco ECM</span>
+              <span class="skill-tag"><span class="skill-icon">🧪</span> JUnit &amp; Mockito Testing</span>
+              <span class="skill-tag"><span class="skill-icon">🐙</span> Git / GitHub Flow</span>
+              <span class="skill-tag"><span class="skill-icon">📋</span> Agile / Scrum Delivery</span>
+            </div>
+          </div>
+
+        </div>
+
+        <!-- Innovative Feature: Interactive System Topology & Request Journey Map -->
+        <div class="topology-panel">
+          <div class="topology-header">
+            <div class="topology-title-wrap">
+              <div class="matrix-icon-box" style="width:38px; height:38px; font-size:1.1rem;">⚡</div>
+              <div>
+                <h3 style="font-size:1.18rem; font-weight:700; color:var(--text-highlight);" data-i18n="topology_title">Live Production Architecture Topology</h3>
+                <p style="font-size:0.82rem; color:var(--text-muted);" data-i18n="topology_desc">End-to-end distributed request lifecycle across Seifeddine's production stack (TIA &amp; SIGMAP)</p>
+              </div>
+            </div>
+            <span class="badge-flag flag-prod">99.98% HIGH AVAILABILITY • ZERO-DOWNTIME</span>
+          </div>
+
+          <div class="topology-flow-grid">
+            <!-- Node 1: Client -->
+            <div class="topology-node" title="Click to open interactive terminal" onclick="openTerminal();">
+              <div class="topology-node-header">
+                <span class="topology-node-step">01. CLIENT TIER</span>
+                <span class="topology-node-icon">🅰️</span>
+              </div>
+              <span class="topology-node-name">Angular 15+ / RxJS</span>
+              <span class="topology-node-tech">Reactive Forms • WebSockets</span>
+              <span class="topology-node-metric">&lt; 85ms FCP</span>
+            </div>
+
+            <!-- Node 2: Ingress -->
+            <div class="topology-node" title="Click to open interactive terminal" onclick="openTerminal();">
+              <div class="topology-node-header">
+                <span class="topology-node-step">02. EDGE &amp; INGRESS</span>
+                <span class="topology-node-icon">🚦</span>
+              </div>
+              <span class="topology-node-name">Traefik + Keycloak</span>
+              <span class="topology-node-tech">OAuth2 / OIDC • Automated TLS</span>
+              <span class="topology-node-metric">Zero-Trust IAM</span>
+            </div>
+
+            <!-- Node 3: Backend Services -->
+            <div class="topology-node" title="Click to open interactive terminal" onclick="openTerminal();">
+              <div class="topology-node-header">
+                <span class="topology-node-step">03. MICROSERVICES</span>
+                <span class="topology-node-icon">☕</span>
+              </div>
+              <span class="topology-node-name">Spring Boot APIs</span>
+              <span class="topology-node-tech">REST / GraphQL • Audit Logs</span>
+              <span class="topology-node-metric">Sub-40ms P99</span>
+            </div>
+
+            <!-- Node 4: BPM -->
+            <div class="topology-node" title="Click to open interactive terminal" onclick="openTerminal();">
+              <div class="topology-node-header">
+                <span class="topology-node-step">04. PROCESS ENGINE</span>
+                <span class="topology-node-icon">⚙️</span>
+              </div>
+              <span class="topology-node-name">Camunda BPM</span>
+              <span class="topology-node-tech">BPMN 2.0 • Dynamic Workflows</span>
+              <span class="topology-node-metric">Stateful Jobs</span>
+            </div>
+
+            <!-- Node 5: Cloud & Infrastructure -->
+            <div class="topology-node" title="Click to open interactive terminal" onclick="openTerminal();">
+              <div class="topology-node-header">
+                <span class="topology-node-step">05. GITOPS CLUSTER</span>
+                <span class="topology-node-icon">☸️</span>
+              </div>
+              <span class="topology-node-name">Kubernetes + ArgoCD</span>
+              <span class="topology-node-tech">Declarative YAML • PostgreSQL</span>
+              <span class="topology-node-metric">Zero-Downtime Rollout</span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+
+    <!-- ==================== CAREER & EXPERIENCE ==================== -->
+    <section class="section" id="experience">
+      <div class="container">
+        
+        <div class="section-tag">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="7" width="20" height="14" rx="2" ry="2"/><path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"/></svg>
+          <span data-i18n="exp_tag">CAREER TRACK</span>
+        </div>
+
+        <h2 class="section-title" data-i18n="exp_title">Professional Experience &amp; Engineering Journey</h2>
+        <p class="section-desc" data-i18n="exp_desc">
+          Proven track record delivering mission-critical applications across government institutions, enterprise fintech environments, and agile software consultancies.
+        </p>
+
+        <div class="timeline-wrap">
+          
+          <!-- Experience 1: SIGMAP & TIA -->
+          <div class="timeline-entry">
+            <div class="timeline-node"></div>
+            <div class="timeline-card">
+              <div class="timeline-header">
+                <div>
+                  <h3 class="timeline-role-title">Software Engineer — Full-Stack &amp; DevOps/Cloud</h3>
+                  <div class="timeline-company">
+                    <span>SIGMAP &amp; TIA (tunisiainvestment.tn) – National Government Platforms</span>
+                  </div>
+                </div>
+                <span class="timeline-badge">June 2025 – Present • Full-time</span>
+              </div>
+              <p class="timeline-desc">
+                Deploying, developing, and operating national mission-critical platforms in production: the Mauritanian e-procurement platform (SIGMAP) and the Tunisia Investment Authority (TIA - tunisiainvestment.tn).
+              </p>
+              <div class="timeline-bullets">
+                <div class="timeline-bullet">Deployed and maintained Kubernetes production infrastructure for <strong>tunisiainvestment.tn</strong> with ArgoCD GitOps, Traefik Ingress, Keycloak IAM, and Alfresco ECM.</div>
+                <div class="timeline-bullet">Designed and built resilient enterprise REST APIs with <strong>Spring Boot</strong> for large-scale government procurement workflows.</div>
+                <div class="timeline-bullet">Engineered high-performance <strong>Angular</strong> administrative dashboards and real-time data visualizers.</div>
+                <div class="timeline-bullet">Ensured 99.98% high availability with zero-downtime rolling updates and automated CI/CD pipelines.</div>
+              </div>
+              <div class="timeline-tags">
+                <span class="timeline-tag">Kubernetes</span>
+                <span class="timeline-tag">ArgoCD</span>
+                <span class="timeline-tag">Spring Boot</span>
+                <span class="timeline-tag">Angular</span>
+                <span class="timeline-tag">Keycloak</span>
+                <span class="timeline-tag">Alfresco ECM</span>
+                <span class="timeline-tag">Traefik</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Experience 2: PFE Stage -->
+          <div class="timeline-entry">
+            <div class="timeline-node"></div>
+            <div class="timeline-card">
+              <div class="timeline-header">
+                <div>
+                  <h3 class="timeline-role-title">Software Engineer Intern — Stage PFE</h3>
+                  <div class="timeline-company">
+                    <span>Dynamic Approval Management Platform</span>
+                  </div>
+                </div>
+                <span class="timeline-badge">Jan 2025 – May 2025 • On-site</span>
+              </div>
+              <p class="timeline-desc">
+                Engineered an end-to-end enterprise approval automation portal designed to replace rigid paperwork for budget requisitions, purchase authorizations, and executive sign-offs.
+              </p>
+              <div class="timeline-bullets">
+                <div class="timeline-bullet">Orchestrated dynamic business processes with <strong>Camunda BPM</strong>, enabling flexible approval paths with real-time process instances.</div>
+                <div class="timeline-bullet">Constructed GitOps CI/CD delivery pipeline with <strong>ArgoCD</strong> and automated container deployments onto a Kubernetes cluster.</div>
+                <div class="timeline-bullet">Automated infrastructure and runtime configuration via <strong>Ansible</strong> playbooks to guarantee repeatable deployments.</div>
+                <div class="timeline-bullet">Engineered real-time notification engine with <strong>WebSockets</strong> and dynamic Angular metric charts for operational oversight.</div>
+              </div>
+              <div class="timeline-tags">
+                <span class="timeline-tag">Camunda BPM</span>
+                <span class="timeline-tag">Kubernetes</span>
+                <span class="timeline-tag">ArgoCD</span>
+                <span class="timeline-tag">Ansible</span>
+                <span class="timeline-tag">Docker</span>
+                <span class="timeline-tag">Spring Boot</span>
+                <span class="timeline-tag">Angular</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Experience 3: FNZ -->
+          <div class="timeline-entry">
+            <div class="timeline-node"></div>
+            <div class="timeline-card">
+              <div class="timeline-header">
+                <div>
+                  <h3 class="timeline-role-title">DevOps &amp; Full-Stack Engineering Intern</h3>
+                  <div class="timeline-company">
+                    <span>FNZ (Global Wealth Management Tech)</span>
+                  </div>
+                </div>
+                <span class="timeline-badge">June 2024 – August 2024 • Tunis</span>
+              </div>
+              <p class="timeline-desc">
+                Contributed to enterprise DevOps pipeline automation and multi-tiered application deployments in datacenter and virtualized cloud environments.
+              </p>
+              <div class="timeline-bullets">
+                <div class="timeline-bullet">Containerized multi-tiered application (React frontend, Spring Boot backend, and Flask AI service) using Docker &amp; Docker Compose.</div>
+                <div class="timeline-bullet">Built end-to-end automated Jenkins CI/CD pipelines triggered via Git webhooks with automated testing stages.</div>
+                <div class="timeline-bullet">Configured Splunk Universal Forwarders in datacenter virtual machines to monitor infrastructure logs and error spikes in real time.</div>
+                <div class="timeline-bullet">Enforced code security and quality gates with SonarQube; managed versioned artifacts and NPM private packages via Nexus and Verdaccio.</div>
+              </div>
+              <div class="timeline-tags">
+                <span class="timeline-tag">Jenkins</span>
+                <span class="timeline-tag">Splunk</span>
+                <span class="timeline-tag">Docker</span>
+                <span class="timeline-tag">SonarQube</span>
+                <span class="timeline-tag">Nexus</span>
+                <span class="timeline-tag">Verdaccio</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Experience 4: E-Build -->
+          <div class="timeline-entry">
+            <div class="timeline-node"></div>
+            <div class="timeline-card">
+              <div class="timeline-header">
+                <div>
+                  <h3 class="timeline-role-title">Software Engineer Intern — Stage PFE (Licence)</h3>
+                  <div class="timeline-company">
+                    <span>E-Build / Labvet International CRM</span>
+                  </div>
+                </div>
+                <span class="timeline-badge">Jan 2022 – May 2022 • Tunis</span>
+              </div>
+              <p class="timeline-desc">
+                Architected and developed a full-scale CRM solution tailored for Labvet International medical laboratory operations.
+              </p>
+              <div class="timeline-bullets">
+                <div class="timeline-bullet">Developed high-speed RESTful backend with Python &amp; FastAPI, and responsive client portal with Angular.</div>
+                <div class="timeline-bullet">Automated generation of complex clinical analysis reports in PDF format from real-time database queries.</div>
+                <div class="timeline-bullet">Engineered reusable data transformation workflows using Dataduct framework.</div>
+              </div>
+              <div class="timeline-tags">
+                <span class="timeline-tag">FastAPI</span>
+                <span class="timeline-tag">Python</span>
+                <span class="timeline-tag">Angular</span>
+                <span class="timeline-tag">Dataduct</span>
+                <span class="timeline-tag">Automated PDF</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Education Section in Timeline -->
+          <div class="timeline-entry education">
+            <div class="timeline-node"></div>
+            <div class="timeline-card">
+              <div class="timeline-header">
+                <div>
+                  <h3 class="timeline-role-title">Ingénierie en Informatique — Spécialité Cloud</h3>
+                  <div class="timeline-company">
+                    <span>Esprit – Ecole Supérieure Privée d’Ingénierie et de Technologies</span>
+                  </div>
+                </div>
+                <span class="timeline-badge" style="color:var(--accent-purple); border-color:rgba(168,85,247,0.3); background:rgba(168,85,247,0.1);">2022 – Présent</span>
+              </div>
+              <p class="timeline-desc">
+                Advanced Computer Science Engineering diploma focusing on Distributed Systems, Cloud Architecture, DevOps Automation, Microservices, and Enterprise Architecture.
+              </p>
+            </div>
+          </div>
+
+          <div class="timeline-entry education">
+            <div class="timeline-node"></div>
+            <div class="timeline-card">
+              <div class="timeline-header">
+                <div>
+                  <h3 class="timeline-role-title">Licence en Informatique — Génie Logiciel &amp; Systèmes d'Information</h3>
+                  <div class="timeline-company">
+                    <span>ISTIC – Institut Supérieur des Technologies de l'Informatique</span>
+                  </div>
+                </div>
+                <span class="timeline-badge" style="color:var(--accent-purple); border-color:rgba(168,85,247,0.3); background:rgba(168,85,247,0.1);">2019 – 2022</span>
+              </div>
+              <p class="timeline-desc">
+                Comprehensive foundation in Software Engineering, Algorithms, Object-Oriented Design (Java/C++), Relational Database Theory, and System Design.
+              </p>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+
+    <!-- ==================== FEATURED PROJECTS (ONLY VERIFIED & ACTUAL LINKS) ==================== -->
+    <section class="section" id="projects" style="background: rgba(22, 27, 34, 0.4);">
+      <div class="container">
+        
+        <div class="section-tag">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="12 2 2 7 12 12 22 7 12 2"/><polyline points="2 17 12 22 22 17"/><polyline points="2 12 12 17 22 12"/></svg>
+          <span data-i18n="proj_tag">ENGINEERING SHOWCASE</span>
+        </div>
+
+        <h2 class="section-title" data-i18n="proj_title">Production Systems &amp; Verified Engineering Projects</h2>
+        <p class="section-desc" data-i18n="proj_desc">
+          Every project listed below includes an actual, verified live production deployment or public repository link.
+        </p>
+
+        <!-- Filter Bar -->
+        <div class="projects-filter-bar">
+          <button class="filter-btn active" data-filter="all" data-i18n="filter_all">All Verified (10)</button>
+          <button class="filter-btn" data-filter="enterprise" data-i18n="filter_enterprise">Enterprise &amp; Gov</button>
+          <button class="filter-btn" data-filter="fullstack" data-i18n="filter_fullstack">Full-Stack</button>
+          <button class="filter-btn" data-filter="devops" data-i18n="filter_devops">DevOps &amp; Cloud</button>
+          <button class="filter-btn" data-filter="ai" data-i18n="filter_ai">AI &amp; Distributed</button>
+        </div>
+
+        <!-- Project Grid -->
+        <div class="projects-grid">
+          
+          <!-- Project 1: TIA - tunisiainvestment.tn (DEPLOYED ON PROD) -->
+          <div class="project-card" data-category="enterprise devops fullstack">
+            <div class="project-thumb logo-thumb">
+              <img src="./assets/images/PNI_logo.png" alt="Plateforme Nationale de l'Investissement - Tunisia Investment Authority (tunisiainvestment.tn)">
+              <div class="project-badge-overlay">
+                <span class="badge-flag flag-prod">PROD • tunisiainvestment.tn</span>
+              </div>
+            </div>
+            <div class="project-body">
+              <h3 class="project-title">Tunisia Investment Authority (TIA)</h3>
+              <p class="project-desc">
+                Official national portal for investments in Tunisia, deployed on production. Built and managed with Kubernetes microservices, ArgoCD GitOps, Traefik Ingress with TLS, Keycloak IAM, Alfresco ECM document workflows, and n8n automation.
+              </p>
+              <div class="project-tech-stack">
+                <span class="tech-pill">Kubernetes</span>
+                <span class="tech-pill">ArgoCD</span>
+                <span class="tech-pill">Keycloak</span>
+                <span class="tech-pill">Alfresco</span>
+                <span class="tech-pill">Traefik</span>
+                <span class="tech-pill">Docker</span>
+              </div>
+              <div class="project-actions">
+                <a href="https://tunisiainvestment.tn/" target="_blank" rel="noopener noreferrer" class="project-direct-link">
+                  <span data-i18n="btn_visit_prod">Visit Live Site</span>
+                  <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+                </a>
+                <button class="project-deepdive-btn" data-project-details data-i18n="btn_deepdive">
+                  Architecture
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <!-- Project 2: SIGMAP (DEPLOYED ON PROD) -->
+          <div class="project-card" data-category="enterprise fullstack devops">
+            <div class="project-thumb">
+              <img src="./assets/images/RECRUITPRO.png" alt="SIGMAP Governmental e-Procurement">
+              <div class="project-badge-overlay">
+                <span class="badge-flag flag-prod">PROD • sigmap.gov.mr</span>
+              </div>
+            </div>
+            <div class="project-body">
+              <h3 class="project-title">SIGMAP Governmental e-Procurement</h3>
+              <p class="project-desc">
+                National public procurement platform for the government of Mauritania. Architected Spring Boot REST APIs, dynamic Angular analytics dashboards, secure role-based access, and enterprise audit trails.
+              </p>
+              <div class="project-tech-stack">
+                <span class="tech-pill">Spring Boot</span>
+                <span class="tech-pill">Angular</span>
+                <span class="tech-pill">DevOps</span>
+                <span class="tech-pill">PostgreSQL</span>
+                <span class="tech-pill">REST APIs</span>
+              </div>
+              <div class="project-actions">
+                <a href="https://sigmap.gov.mr/" target="_blank" rel="noopener noreferrer" class="project-direct-link">
+                  <span data-i18n="btn_visit_prod">Visit Live Site</span>
+                  <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+                </a>
+                <button class="project-deepdive-btn" data-project-details data-i18n="btn_deepdive">
+                  Architecture
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <!-- Project 3: Approval Management Portal (GITHUB) -->
+          <div class="project-card" data-category="enterprise fullstack devops">
+            <div class="project-thumb">
+              <img src="./assets/images/EDDAR.png" alt="Dynamic Approval Workflow Portal">
+              <div class="project-badge-overlay">
+                <span class="badge-flag">CAMUNDA • GITOPS</span>
+              </div>
+            </div>
+            <div class="project-body">
+              <h3 class="project-title">Dynamic Approval Workflow Engine</h3>
+              <p class="project-desc">
+                Enterprise approval management portal orchestrating multi-step organizational validations. Built on Camunda BPM, Spring Boot, and Angular, deployed on Kubernetes via ArgoCD GitOps pipelines.
+              </p>
+              <div class="project-tech-stack">
+                <span class="tech-pill">Camunda BPM</span>
+                <span class="tech-pill">ArgoCD</span>
+                <span class="tech-pill">Kubernetes</span>
+                <span class="tech-pill">Docker</span>
+                <span class="tech-pill">Spring Boot</span>
+              </div>
+              <div class="project-actions">
+                <a href="https://github.com/SeifeddineABIDI/Approbation-frontend" target="_blank" rel="noopener noreferrer" class="project-direct-link">
+                  <span data-i18n="btn_view_repo">View GitHub Repo</span>
+                  <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/></svg>
+                </a>
+                <button class="project-deepdive-btn" data-project-details data-i18n="btn_deepdive">
+                  Architecture
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <!-- Project 4: Labvet International CRM (PROD LINK) -->
+          <div class="project-card" data-category="enterprise fullstack">
+            <div class="project-thumb">
+              <img src="./assets/images/DIAME.png" alt="Labvet International CRM">
+              <div class="project-badge-overlay">
+                <span class="badge-flag flag-prod">PROD • LABVET</span>
+              </div>
+            </div>
+            <div class="project-body">
+              <h3 class="project-title">Labvet International Medical CRM</h3>
+              <p class="project-desc">
+                Custom veterinary medical CRM tailored for Labvet International. Automated clinical test generation in PDF format with Dataduct data pipelines and FastAPI backend.
+              </p>
+              <div class="project-tech-stack">
+                <span class="tech-pill">Angular</span>
+                <span class="tech-pill">FastAPI</span>
+                <span class="tech-pill">Python</span>
+                <span class="tech-pill">Dataduct</span>
+                <span class="tech-pill">PDF Reports</span>
+              </div>
+              <div class="project-actions">
+                <a href="https://www.labvet-international.com/en/" target="_blank" rel="noopener noreferrer" class="project-direct-link">
+                  <span data-i18n="btn_visit_prod">Visit Live Site</span>
+                  <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+                </a>
+                <button class="project-deepdive-btn" data-project-details data-i18n="btn_deepdive">
+                  Architecture
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <!-- Project 5: PetsStore Distributed Microservices (GITHUB) -->
+          <div class="project-card" data-category="fullstack devops">
+            <div class="project-thumb">
+              <img src="./assets/images/CIVICC.png" alt="PetsStore Microservices Architecture">
+              <div class="project-badge-overlay">
+                <span class="badge-flag">MICROSERVICES</span>
+              </div>
+            </div>
+            <div class="project-body">
+              <h3 class="project-title">PetsStore Distributed Microservices</h3>
+              <p class="project-desc">
+                Resilient microservices architecture featuring Eureka Service Discovery, Spring Cloud API Gateway, Keycloak OAuth2/OIDC centralized identity, and Docker Compose orchestration.
+              </p>
+              <div class="project-tech-stack">
+                <span class="tech-pill">Spring Boot</span>
+                <span class="tech-pill">Eureka</span>
+                <span class="tech-pill">Keycloak</span>
+                <span class="tech-pill">API Gateway</span>
+                <span class="tech-pill">Docker Compose</span>
+              </div>
+              <div class="project-actions">
+                <a href="https://github.com/YOSRcharek/AnimalerieMicroService" target="_blank" rel="noopener noreferrer" class="project-direct-link">
+                  <span data-i18n="btn_view_repo">View GitHub Repo</span>
+                  <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/></svg>
+                </a>
+                <button class="project-deepdive-btn" data-project-details data-i18n="btn_deepdive">
+                  Architecture
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <!-- Project 6: CI/CD Automation Pipeline (GITHUB) -->
+          <div class="project-card" data-category="devops">
+            <div class="project-thumb">
+              <img src="./assets/images/devops.png" alt="CI/CD Automation Pipeline">
+              <div class="project-badge-overlay">
+                <span class="badge-flag">JENKINS • DEVOPS</span>
+              </div>
+            </div>
+            <div class="project-body">
+              <h3 class="project-title">Enterprise CI/CD &amp; Observability Pipeline</h3>
+              <p class="project-desc">
+                Automated continuous delivery pipeline built with Jenkins, Maven builds, Mockito unit testing, SonarQube quality inspections, Nexus artifact archiving, and Prometheus/Grafana metric telemetry.
+              </p>
+              <div class="project-tech-stack">
+                <span class="tech-pill">Jenkins</span>
+                <span class="tech-pill">SonarQube</span>
+                <span class="tech-pill">Nexus</span>
+                <span class="tech-pill">Prometheus</span>
+                <span class="tech-pill">Grafana</span>
+              </div>
+              <div class="project-actions">
+                <a href="https://github.com/YOSRcharek/DEVOPS" target="_blank" rel="noopener noreferrer" class="project-direct-link">
+                  <span data-i18n="btn_view_repo">View GitHub Repo</span>
+                  <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/></svg>
+                </a>
+                <button class="project-deepdive-btn" data-project-details data-i18n="btn_deepdive">
+                  Architecture
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <!-- Project 7: HubEducator (GITHUB) -->
+          <div class="project-card" data-category="fullstack ai">
+            <div class="project-thumb">
+              <img src="./assets/images/hubeducator.png" alt="HubEducator Multimodal Learning Platform">
+              <div class="project-badge-overlay">
+                <span class="badge-flag">AI • MULTIMODAL</span>
+              </div>
+            </div>
+            <div class="project-body">
+              <h3 class="project-title">HubEducator – Multimodal AI Platform</h3>
+              <p class="project-desc">
+                Next-generation learning ecosystem equipped with multimodal AI coaching (text, voice, and visual inputs), dynamic exercises, student analytics, and granular role management in Django.
+              </p>
+              <div class="project-tech-stack">
+                <span class="tech-pill">Django</span>
+                <span class="tech-pill">Python</span>
+                <span class="tech-pill">AI Assistant</span>
+                <span class="tech-pill">PostgreSQL</span>
+              </div>
+              <div class="project-actions">
+                <a href="https://github.com/YOSRcharek/HubEducator" target="_blank" rel="noopener noreferrer" class="project-direct-link">
+                  <span data-i18n="btn_view_repo">View GitHub Repo</span>
+                  <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/></svg>
+                </a>
+                <button class="project-deepdive-btn" data-project-details data-i18n="btn_deepdive">
+                  Architecture
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <!-- Project 8: BookShare / LibroLink (GITHUB) -->
+          <div class="project-card" data-category="fullstack">
+            <div class="project-thumb">
+              <img src="./assets/images/bookshare.png" alt="LibroLink BookShare Platform">
+              <div class="project-badge-overlay">
+                <span class="badge-flag">PAYMENTS • PHP</span>
+              </div>
+            </div>
+            <div class="project-body">
+              <h3 class="project-title">LibroLink – Collaborative Book Platform</h3>
+              <p class="project-desc">
+                Community library exchange web platform with gamification, wishlist tracking, social book reviews, and integrated secure payment processing for book loans.
+              </p>
+              <div class="project-tech-stack">
+                <span class="tech-pill">Laravel</span>
+                <span class="tech-pill">PHP</span>
+                <span class="tech-pill">MySQL</span>
+                <span class="tech-pill">Payments</span>
+              </div>
+              <div class="project-actions">
+                <a href="https://github.com/Slouumaa/Bookshare" target="_blank" rel="noopener noreferrer" class="project-direct-link">
+                  <span data-i18n="btn_view_repo">View GitHub Repo</span>
+                  <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/></svg>
+                </a>
+                <button class="project-deepdive-btn" data-project-details data-i18n="btn_deepdive">
+                  Architecture
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <!-- Project 9: Smart Emergency Management System (GITHUB) -->
+          <div class="project-card" data-category="fullstack ai">
+            <div class="project-thumb">
+              <img src="./assets/images/CIVIX.png" alt="Smart Emergency Triage System">
+              <div class="project-badge-overlay">
+                <span class="badge-flag">AI TRIAGE • MERN</span>
+              </div>
+            </div>
+            <div class="project-body">
+              <h3 class="project-title">Smart Emergency Hospital Triage</h3>
+              <p class="project-desc">
+                Emergency department hospital management solution powered by MERN stack, automated patient triage AI algorithms, and real-time patient queue updates via WebSockets.
+              </p>
+              <div class="project-tech-stack">
+                <span class="tech-pill">React.js</span>
+                <span class="tech-pill">Node.js</span>
+                <span class="tech-pill">MongoDB</span>
+                <span class="tech-pill">WebSockets</span>
+              </div>
+              <div class="project-actions">
+                <a href="https://github.com/ahmedth20/Twinners_PI" target="_blank" rel="noopener noreferrer" class="project-direct-link">
+                  <span data-i18n="btn_view_repo">View GitHub Repo</span>
+                  <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/></svg>
+                </a>
+                <button class="project-deepdive-btn" data-project-details data-i18n="btn_deepdive">
+                  Architecture
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <!-- Project 10: MediConnect Multi-Platform (GITHUB) -->
+          <div class="project-card" data-category="fullstack">
+            <div class="project-thumb">
+              <img src="./assets/images/mediconnect.png" alt="MediConnect Multi-platform Medical Platform">
+              <div class="project-badge-overlay">
+                <span class="badge-flag">CROSS-PLATFORM</span>
+              </div>
+            </div>
+            <div class="project-body">
+              <h3 class="project-title">MediConnect – Multi-Platform Suite</h3>
+              <p class="project-desc">
+                Comprehensive medical ecosystem spanning desktop (JavaFX), web (Symfony &amp; MySQL), and mobile (Flutter &amp; Firebase) for clinical records, inventory, and doctor schedules.
+              </p>
+              <div class="project-tech-stack">
+                <span class="tech-pill">JavaFX</span>
+                <span class="tech-pill">Symfony</span>
+                <span class="tech-pill">FlutterFlow</span>
+                <span class="tech-pill">Firebase</span>
+              </div>
+              <div class="project-actions">
+                <a href="https://github.com/LaameriSayf/PIDev" target="_blank" rel="noopener noreferrer" class="project-direct-link">
+                  <span data-i18n="btn_view_repo">View GitHub Repo</span>
+                  <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/></svg>
+                </a>
+                <button class="project-deepdive-btn" data-project-details data-i18n="btn_deepdive">
+                  Architecture
+                </button>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+
+    <!-- ==================== CERTIFICATIONS ==================== -->
+    <section class="section" id="certifications">
+      <div class="container">
+        
+        <div class="section-tag">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="8" r="7"/><polyline points="8.21 13.89 7 23 12 20 17 23 15.79 13.88"/></svg>
+          <span data-i18n="cert_tag">VERIFIED CREDENTIALS</span>
+        </div>
+
+        <h2 class="section-title" data-i18n="cert_title">Certifications &amp; Accreditations</h2>
+        <p class="section-desc" data-i18n="cert_desc">
+          Industry-recognized credentials in cloud infrastructure, object storage, and cloud computing fundamentals.
+        </p>
+
+        <div class="certs-grid">
+          
+          <!-- Cert 1: AWS Educate -->
+          <div class="cert-card" title="Click to view credential details">
+            <div class="cert-preview-box">
+              <img src="./assets/images/aws-educate-storage.png" alt="AWS Educate Getting Started with Storage badge">
+            </div>
+            <span class="cert-badge" data-i18n="cert_badge">✓ VERIFIED CREDENTIAL</span>
+            <h3 class="cert-title">AWS Educate Getting Started with Storage</h3>
+            <p class="cert-issuer">Amazon Web Services (AWS)</p>
+            <div class="cert-meta">
+              <span><strong>Issued:</strong> Aug 2025</span>
+              <span><strong>Credential ID:</strong> 8f1f3f88-e0e4-406b-8a44-fe53813a0ffa</span>
+            </div>
+            <a href="https://www.credly.com/earner/earned/badge/8f1f3f88-e0e4-406b-8a44-fe53813a0ffa" target="_blank" rel="noopener noreferrer" class="cert-link-btn" title="View credential on Credly">
+              Show credential
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+            </a>
+          </div>
+
+          <!-- Cert 2: IBM Cloud Essentials V3 -->
+          <div class="cert-card" title="Click to view credential details">
+            <div class="cert-preview-box">
+              <img src="./assets/images/ibm-cloud-essentials-v3.png" alt="IBM Cloud Essentials V3 badge">
+            </div>
+            <span class="cert-badge" data-i18n="cert_badge">✓ VERIFIED CREDENTIAL</span>
+            <h3 class="cert-title">IBM Cloud Essentials V3</h3>
+            <p class="cert-issuer">Student Ambassador Program with IBM SkillsBuild</p>
+            <div class="cert-meta">
+              <span><strong>Issued:</strong> Oct 2024</span>
+              <span><strong>Credential ID:</strong> 5dadf105f88f4e8da9600e29a4d08710</span>
+            </div>
+            <span class="cert-link-btn" style="cursor: pointer;">
+              Show credential
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M15 3h6v6"/><path d="M10 14L21 3"/><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/></svg>
+            </span>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+
+    <!-- ==================== CONTACT & INQUIRIES ==================== -->
+    <section class="section" id="contact" style="background: rgba(22, 27, 34, 0.4);">
+      <div class="container">
+        
+        <div class="section-tag">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+          <span data-i18n="contact_tag">COMMUNICATION ENDPOINTS</span>
+        </div>
+
+        <h2 class="section-title" data-i18n="contact_title">Let’s Build Something Resilient Together</h2>
+        <p class="section-desc" data-i18n="contact_desc">
+          Interested in discussing a software engineering role, distributed systems architecture, or technical collaboration? Reach out directly.
+        </p>
+
+        <div class="contact-grid">
+          
+          <!-- Direct Endpoints with 1-Click Copy -->
+          <div class="contact-info-card">
+            
+            <div class="contact-item-box">
+              <div class="contact-icon-wrap">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+              </div>
+              <div class="contact-text-wrap">
+                <span class="contact-label" data-i18n="contact_email_lbl">Direct Email</span>
+                <div class="contact-val-row">
+                  <a href="mailto:seifeddine.abidi@esprit.tn" class="contact-val">seifeddine.abidi@esprit.tn</a>
+                  <button class="copy-btn" data-copy-target="seifeddine.abidi@esprit.tn" title="Copy email address">
+                    <span data-i18n="copy_btn">Copy</span>
+                  </button>
                 </div>
               </div>
             </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div id="carouselModalTuniCollabJava" class="modal">
-      <div class="modal-content">
-        <span class="close-btn">&times;</span>
-        <div class="my-carousel TuniCollabJava-carousel">
-          <div class="stage">
-            <div class="container">
-              <div class="ring">
-                <!-- IMPORTANT ⚡⚡ 16 divs img vides pour que GSAP applique les backgroundImage -->
-                <div class="img"></div>
-                <div class="img"></div>
-                <div class="img"></div>
-                <div class="img"></div>
-                <div class="img"></div>
-                <div class="img"></div>
-                <div class="img"></div>
-                <div class="img"></div>
-                <div class="img"></div>
-                <div class="img"></div>
-                <div class="img">
+
+            <div class="contact-item-box">
+              <div class="contact-icon-wrap">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+              </div>
+              <div class="contact-text-wrap">
+                <span class="contact-label" data-i18n="contact_phone_lbl">Direct Phone / WhatsApp</span>
+                <div class="contact-val-row">
+                  <a href="tel:+21656549887" class="contact-val">+216 23 701 841</a>
+                  <button class="copy-btn" data-copy-target="+21656549887" title="Copy phone number">
+                    <span data-i18n="copy_btn">Copy</span>
+                  </button>
                 </div>
               </div>
             </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div id="carouselModalClassy" class="modal">
-      <div class="modal-content">
-        <span class="close-btn">&times;</span>
-        <div class="my-carousel classy-carousel">
-          <div class="stage">
-            <div class="container">
-              <div class="ring">
-                <!-- IMPORTANT ⚡⚡ 8 divs img vides pour que GSAP applique les backgroundImage -->
-                <div class="img"></div>
-                <div class="img"></div>
-                <div class="img"></div>
-                <div class="img"></div>
-                <div class="img"></div>
-                <div class="img"></div>
-                <div class="img"></div>
-                <div class="img"></div>
+
+            <div class="contact-item-box">
+              <div class="contact-icon-wrap">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+              </div>
+              <div class="contact-text-wrap">
+                <span class="contact-label" data-i18n="contact_loc_lbl">Location &amp; Mobility</span>
+                <div class="contact-val-row">
+                  <span class="contact-val" data-i18n="contact_loc_val">Tunis, Tunisia • Open to Remote &amp; Relocation</span>
+                </div>
               </div>
             </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div id="carouselModalTn" class="modalTn">
-      <div class="modal-contentTn">
-        <span class="close-btnTn">&times;</span>
-        <div class="my-carousel">
-          <div class="stage">
-            <div class="container">
-              <div class="ring-tn">
-                <div class="img-tn"></div>
-                <div class="img-tn"></div>
-                <div class="img-tn"></div>
-                <div class="img-tn"></div>
-                <div class="img-tn"></div>
-                <div class="img-tn"></div>
-                <div class="img-tn"></div>
-                <div class="img-tn"></div>
-                <div class="img-tn"></div>
-                <div class="img-tn"></div>
-                <div class="img-tn"></div>
-                <div class="img-tn"></div>
+
+            <div class="contact-item-box">
+              <div class="contact-icon-wrap">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg>
+              </div>
+              <div class="contact-text-wrap">
+                <span class="contact-label" data-i18n="contact_prof_lbl">Profiles &amp; Verification</span>
+                <div class="contact-val-row" style="margin-top:6px;">
+                  <a href="https://www.linkedin.com/in/seifeddineabidi/" target="_blank" rel="noopener noreferrer" class="btn btn-outline" style="padding:0 14px; font-size:0.8rem; height:34px;">
+                    LinkedIn Profile
+                  </a>
+                  <a href="https://github.com/seifeddineABIDI" target="_blank" rel="noopener noreferrer" class="btn btn-outline" style="padding:0 14px; font-size:0.8rem; height:34px;">
+                    GitHub Repos
+                  </a>
+                </div>
               </div>
             </div>
+
           </div>
-        </div>
-      </div>
-    </div>
-    <div id="carouselModalClassyPhone" class="modalClassyPhone">
-      <div class="modal-contentClassyPhone">
-        <span class="close-btnClassyPhone">&times;</span>
-        <div class="my-carousel">
-          <div class="stage">
-            <div class="container">
-              <div class="ring-ClassyPhone">
-                <div class="img-ClassyPhone"></div>
-                <div class="img-ClassyPhone"></div>
-                <div class="img-ClassyPhone"></div>
-                <div class="img-ClassyPhone"></div>
-                <div class="img-ClassyPhone"></div>
-                <div class="img-ClassyPhone"></div>
+
+          <!-- Functional Contact Form -->
+          <div class="contact-form-wrap">
+            <form id="contactForm">
+              <div class="form-group">
+                <label for="formName" class="form-label" data-i18n="contact_form_name_lbl">Full Name / Organization *</label>
+                <input type="text" id="formName" name="name" class="form-input" data-i18n-placeholder="contact_form_name_ph" placeholder="e.g. Alex Mercer, Tech Lead at ..." required>
               </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div id="carouselModalModem" class="modal">
-      <div class="modal-content">
-        <span class="close-btn">&times;</span>
-        <div class="my-carousel modem-carousel">
-          <div class="stage">
-            <div class="container">
-              <div class="ring">
-                <!-- IMPORTANT ⚡⚡ 15 divs img vides pour que GSAP applique les backgroundImage -->
-                <!-- 15 images -->
-                <div class="img"></div>
-                <div class="img"></div>
-                <div class="img"></div>
-                <div class="img"></div>
-                <div class="img"></div>
-                <div class="img"></div>
-                <div class="img"></div>
-                <div class="img"></div>
-                <div class="img"></div>
-                <div class="img"></div>
-                <div class="img"></div>
-                <div class="img"></div>
-                <div class="img"></div>
-                <div class="img"></div>
-                <div class="img"></div>
+
+              <div class="form-group">
+                <label for="formEmail" class="form-label" data-i18n="contact_form_email_lbl">Email Address *</label>
+                <input type="email" id="formEmail" name="email" class="form-input" data-i18n-placeholder="contact_form_email_ph" placeholder="e.g. alex@company.com" required>
               </div>
-            </div>
+
+              <div class="form-group">
+                <label for="formMessage" class="form-label" data-i18n="contact_form_msg_lbl">Project / Role Inquiries *</label>
+                <textarea id="formMessage" name="message" class="form-textarea" data-i18n-placeholder="contact_form_msg_ph" placeholder="Describe the technical requirements, architecture, or position..." required></textarea>
+              </div>
+
+              <button type="submit" class="btn btn-primary" style="width:100%; height:42px;">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="22" y1="2" x2="11" y2="13"/><polygon points="22 2 15 22 11 13 2 9 22 2"/></svg>
+                <span data-i18n="contact_form_submit">Transmit Message</span>
+              </button>
+            </form>
           </div>
+
         </div>
+
       </div>
-    </div>
-    <!-- Modal YouTube -->
-    <div id="videoModal" class="modal2">
-      <div class="modal-content2">
-        <span class="close-btn2">&times;</span>
-        <div class="video-container">
-          <iframe id="youtubeVideo" width="100%" height="100%" src="" frameborder="0"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-            allowfullscreen>
-          </iframe>
-        </div>
-      </div>
-    </div>
-    <div id="imageFullscreenModal" class="image-fullscreen-modal">
-      <span class="close-fullscreen">&times;</span>
-      <img id="fullscreenImage" src="" alt="Image en plein écran">
-    </div>
+    </section>
 
   </main>
 
-  <script>
-    document.addEventListener('DOMContentLoaded', () => {
-      const navLinks = document.querySelectorAll('[data-nav-link]');
-      const pages = document.querySelectorAll('article[data-page]');
+  <!-- ==================== FOOTER ==================== -->
+  <footer class="site-footer">
+    <div class="container footer-content">
+      <div class="footer-text">
+        <span data-i18n="footer_copy">© 2026 Seifeddine ABIDI. Crafted with passion for resilient software engineering.</span>
+      </div>
+      <div class="footer-tech-stack">
+        <span data-i18n="footer_stack">Stack: Vanilla HTML5 • Modern CSS System • ES6+ JS</span>
+      </div>
+    </div>
+  </footer>
 
-      if (!navLinks.length || !pages.length) {
-        console.error('Nav links ou pages introuvables : vérifie les attributs data-nav-link / data-page');
-        return;
-      }
+  <!-- ==================== INTERACTIVE DEV CLI MODAL ==================== -->
+  <div class="terminal-modal-overlay" id="cliModal">
+    <div class="terminal-modal-card">
+      <div class="terminal-header">
+        <div class="terminal-dots">
+          <span class="terminal-dot dot-red" id="closeCliBtn" style="cursor:pointer;" title="Close terminal"></span>
+          <span class="terminal-dot dot-yellow"></span>
+          <span class="terminal-dot dot-green"></span>
+        </div>
+        <div class="terminal-title">
+          <span>seif-cli v2.4.0 — interactive engineering shell</span>
+        </div>
+        <span class="terminal-badge">INTERACTIVE</span>
+      </div>
 
-      // fonction pour afficher la page target (ex: 'about', 'resume', ...)
-      const showPage = (target) => {
-        const t = (target || '').trim().toLowerCase();
-        let matched = false;
+      <div class="cli-output-area" id="cliOutput">
+        <div style="color:#38bdf8; font-weight:600; margin-bottom:8px;">
+          === Seifeddine ABIDI Interactive Terminal [v2.4.0] ===
+        </div>
+        <div style="margin-bottom:12px; color:#9198a1;">
+          Type <span style="color:#34d399; font-weight:600;">help</span> to inspect available commands, or try <span style="color:#38bdf8;">skills</span>, <span style="color:#38bdf8;">experience</span>, <span style="color:#38bdf8;">projects</span>, <span style="color:#38bdf8;">download-cv</span>, or <span style="color:#c084fc;">sudo hire</span>.
+        </div>
+      </div>
 
-        pages.forEach(page => {
-          const pageName = (page.dataset.page || '').trim().toLowerCase();
-          const isActive = pageName === t;
-          page.classList.toggle('active', isActive);
-          if (isActive) matched = true;
-        });
+      <div class="cli-input-row">
+        <span style="color:#38bdf8; font-weight:600;">user@visitor:~$</span>
+        <input type="text" class="cli-input" id="cliInput" placeholder="Type command here..." autofocus>
+      </div>
+    </div>
+  </div>
 
-        navLinks.forEach(link => {
-          const linkTarget = (link.dataset.navTarget || link.textContent).trim().toLowerCase();
-          link.classList.toggle('active', linkTarget === t);
-        });
+  <!-- ==================== LIGHTBOX MODAL (PROJECTS & CERTS) ==================== -->
+  <div class="lightbox-modal" id="lightboxModal">
+    <div class="lightbox-content">
+      <button class="lightbox-close" id="lightboxClose" aria-label="Close dialog">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
+      </button>
+      <div class="lightbox-image-wrap">
+        <img id="lightboxImg" src="" alt="Showcase Preview">
+      </div>
+      <h3 id="lightboxTitle" style="font-size:1.35rem; color:var(--text-highlight); margin-bottom:8px;"></h3>
+      <div id="lightboxDesc" style="color:var(--text-secondary); line-height:1.65;"></div>
+      <div id="lightboxMeta"></div>
+    </div>
+  </div>
 
-        if (!matched) {
-          console.warn('Aucune page correspondante pour :', t);
-        }
-        window.scrollTo(0, 0);
-      };
+  <!-- ==================== TOAST NOTIFICATION ==================== -->
+  <div class="toast-notice" id="toastNotice">
+    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="var(--accent-emerald)" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>
+    <span id="toastMsg">Value copied to clipboard!</span>
+  </div>
 
-      // attacher les handlers
-      navLinks.forEach(link => {
-        link.addEventListener('click', (ev) => {
-          ev.preventDefault();
-          // dataset.navTarget permet d'être explicite (utile si bouton contient <i> ou autres)
-          const target = link.dataset.navTarget || link.textContent;
-          showPage(target);
-        });
-      });
-
-      // optionnel : afficher la page correspondant au bouton actif au chargement
-      const initial = Array.from(navLinks).find(l => l.classList.contains('active'));
-      if (initial) {
-        showPage(initial.dataset.navTarget || initial.textContent);
-      }
-    });
-  </script>
-
-
-  <script src='https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.1/gsap.min.js'></script>
-  <script src='https://cdnjs.cloudflare.com/ajax/libs/zepto/1.2.0/zepto.min.js'></script>
-  <script src="./assets/js/script.js"></script>
-  <script src="./assets/js/image.js"></script>
-  <script src="./assets/js/imageClassyPhone.js"></script>
-  <script src="./assets/js/imageTuniCollab.js"></script>
-  <script src="./assets/js/imageTuniCollabJava.js"></script>
-  <script src="./assets/js/imagesTunisiaTouristic.js"></script>
-  <script src="./assets/js/imageResa.js"></script>
-  <script src="./assets/js/imageClassy.js"></script>
-  <script src="./assets/js/imageModem.js"></script>
-  <script src="./assets/js/video.js"></script>
-
-  <!-- Ionicons -->
-  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
-  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+  <!-- Script -->
+  <script src="./assets/js/app.js"></script>
 
 </body>
-
 </html>
