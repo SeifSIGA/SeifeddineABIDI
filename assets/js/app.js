@@ -428,11 +428,11 @@ document.addEventListener('DOMContentLoaded', () => {
     'contact': {
       en: `<div class="terminal-line"><span class="val-cyan">📫 Direct Endpoints:</span></div>
 <div class="terminal-line">◦ Email: <a href="mailto:seifeddine.abidi@esprit.tn" style="color:#38bdf8;text-decoration:underline;">seifeddine.abidi@esprit.tn</a></div>
-<div class="terminal-line">◦ Mobile: +216 56 549 887</div>
+<div class="terminal-line">◦ Mobile: +216 23 701 841</div>
 <div class="terminal-line">◦ Location: Tunis, Tunisia (Open to Remote & Relocation)</div>`,
       fr: `<div class="terminal-line"><span class="val-cyan">📫 Coordonnées Directes :</span></div>
 <div class="terminal-line">◦ Email: <a href="mailto:seifeddine.abidi@esprit.tn" style="color:#38bdf8;text-decoration:underline;">seifeddine.abidi@esprit.tn</a></div>
-<div class="terminal-line">◦ Mobile: +216 56 549 887</div>
+<div class="terminal-line">◦ Mobile: +216 23 701 841</div>
 <div class="terminal-line">◦ Lieu: Tunis, Tunisie (Télétravail & Mobilité)</div>`
     }
   };
@@ -528,7 +528,7 @@ Production Operator for tunisiainvestment.tn (TIA) and sigmap.gov.mr (SIGMAP).`,
 10. MediConnect - Multi-Platform Medical Suite (GitHub: PIDev)`,
 
     'contact': `Email:    seifeddine.abidi@esprit.tn
-Phone:    +216 56 549 887
+Phone:    +216 23 701 841
 Location: Tunis, Tunisia (Open to Remote & Relocation)
 LinkedIn: https://www.linkedin.com/in/seifeddineabidi/
 GitHub:   https://github.com/seifeddineABIDI`,
